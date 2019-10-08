@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/marketinigWepApp/precache-manifest.14ef4017205d5c109a68236d2d3dd728.js"
+  "/marketinigWepApp/precache-manifest.bf7c3a64d962fa9bda1d78c3811c4b60.js"
 );
 
 self.addEventListener('message', (event) => {
