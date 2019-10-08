@@ -2,12 +2,13 @@
     height: 500px;
     display: block;
     margin: 33px 0 45px 0;
-    background-image: url(../../images/carousel/image1.jpg);
+    background-image: url(../../images/carousel/image1-light.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
     position: relative;
     box-shadow: $level-1;
+    border: 1px solid #cecece;
 
     .left-button {
         position: absolute;
@@ -21,6 +22,10 @@
         background-image: url(../../images/carousel/left-light.svg);
         background-repeat: no-repeat;
         background-position: center;
+        left: -1px;
+        border-top: 1px solid #cecece;
+        border-right: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
     }
 
     .right-button {
@@ -35,32 +40,52 @@
         background-image: url(../../images/carousel/right-light.svg);
         background-repeat: no-repeat;
         background-position: center;
+        right: -1px;
+        border-top: 1px solid #cecece;
+        border-left: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
     }
 }
 
 
 @media (prefers-color-scheme: dark) {
     .carousel {
+        background-image: url(../../images/carousel/image1-dark.jpg);
+        border: 1px solid #000;
         .left-button {
             background-color: $dark-lava;
             background-image: url(../../images/carousel/left-dark.svg);
+            border-top: 1px solid #000;
+            border-right: 1px solid #000;
+            border-bottom: 1px solid #000;
         }
         .right-button {
             background-color: $dark-lava;
             background-image: url(../../images/carousel/right-dark.svg);
+            border-top: 1px solid #000;
+            border-left: 1px solid #000;
+            border-bottom: 1px solid #000;
         }
     }
 }
 
 @media (prefers-color-scheme: light) {
     .carousel {
+        border: 1px solid #cecece;
         .left-button {
             background-color: $isabelline;
             background-image: url(../../images/carousel/left-light.svg);
+            border-top: 1px solid #cecece;
+            border-right: 1px solid #cecece;
+            border-bottom: 1px solid #cecece;
         }
         .right-button {
+            background-image: url(../../images/carousel/image1-light.jpg);
             background-color: $isabelline;
             background-image: url(../../images/carousel/right-light.svg);
+            border-top: 1px solid #cecece;
+            border-left: 1px solid #cecece;
+            border-bottom: 1px solid #cecece;
         }
     }
 }

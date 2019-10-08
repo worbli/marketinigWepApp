@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   const txt = Translations[global.language];
 
   return (    
-    <div>{txt.siteName}</div>
+    <div>Insert Footer Here</div>
   );
 }
 
