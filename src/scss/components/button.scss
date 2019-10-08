@@ -1,0 +1,17 @@
+button {
+    height: 32px;
+    width: 100%;
+    margin-top: 24px;
+    cursor: pointer;
+    padding-left: 12px;
+    font-weight: 600;
+}
+
+.left{
+    text-align: left
+}
+
+.blue{
+    background-color: $bleu-de-france;
+    color: $white;
+}

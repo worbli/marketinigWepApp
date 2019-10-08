@@ -1,0 +1,66 @@
+.carousel {
+    height: 500px;
+    display: block;
+    margin: 33px 0 45px 0;
+    background-image: url(../../images/carousel/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: $level-1;
+
+    .left-button {
+        position: absolute;
+        left: 0;
+        top: 190px;
+        width: 65px;
+        height: 75px;
+        background-color: $isabelline;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-image: url(../../images/carousel/left-light.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .right-button {
+        position: absolute;
+        right: 0;
+        top: 190px;
+        width: 65px; 
+        height: 75px;
+        background-color: $isabelline;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-image: url(../../images/carousel/right-light.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .carousel {
+        .left-button {
+            background-color: $dark-lava;
+            background-image: url(../../images/carousel/left-dark.svg);
+        }
+        .right-button {
+            background-color: $dark-lava;
+            background-image: url(../../images/carousel/right-dark.svg);
+        }
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .carousel {
+        .left-button {
+            background-color: $isabelline;
+            background-image: url(../../images/carousel/left-light.svg);
+        }
+        .right-button {
+            background-color: $isabelline;
+            background-image: url(../../images/carousel/right-light.svg);
+        }
+    }
+}

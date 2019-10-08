@@ -1,0 +1,21 @@
+.card {
+    background-color: $white;
+    box-shadow: $level-1;
+}
+.floating-card {
+    background-color: $white;
+    box-shadow: $level-1;
+    padding: 45px 26px 26px 26px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .card {
+        background-color: $medium-jungle-green;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .card {
+        background-color: $white;
+    }
+}

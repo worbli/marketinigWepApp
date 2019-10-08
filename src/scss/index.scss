@@ -1,5 +1,15 @@
 @import "./themes/colors.scss";
 @import "./themes/typography.scss";
+@import "./themes/shadows.scss";
+
+@import "./layout/layout.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/card.scss";
+@import "./components/button.scss";
+@import "./components/carousel.scss";
+
+
 
 * {
   margin: 0;
@@ -25,11 +35,12 @@ html, body, #shell {
   overflow-y: scroll;
   cursor: default;
   -webkit-font-smoothing: antialiased;
-  font-size: 13px;
+  font-size: 14px;
   font-family: $base-font;
   display: block;
   height: 100%;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html, body, #shell {
