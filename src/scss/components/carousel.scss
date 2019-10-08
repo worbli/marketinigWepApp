@@ -50,7 +50,6 @@
 
 @media (prefers-color-scheme: dark) {
     .carousel {
-        background-image: url(../../images/carousel/image1-dark.jpg);
         border: 1px solid #000;
         .left-button {
             background-color: $dark-lava;
@@ -80,7 +79,6 @@
             border-bottom: 1px solid #cecece;
         }
         .right-button {
-            background-image: url(../../images/carousel/image1-light.jpg);
             background-color: $isabelline;
             background-image: url(../../images/carousel/right-light.svg);
             border-top: 1px solid #cecece;

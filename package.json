@@ -19,8 +19,7 @@
     "typescript": "3.6.3"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn build && gh-pages -d build",
     "dockerClean": "docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)",
     "docker": "tsc && docker-compose up --build",
     "start": "react-scripts start",
