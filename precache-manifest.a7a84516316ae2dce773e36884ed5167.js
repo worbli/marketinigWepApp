@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8d8b6e11effd9c99d00bf3f65f735fa",
+    "revision": "996555a7a5670b93a0b48dd51785a46d",
     "url": "/marketinigWepApp/index.html"
   },
   {
-    "revision": "eb2855e34b162393bc1e",
-    "url": "/marketinigWepApp/static/css/main.765d5b16.chunk.css"
+    "revision": "52573f1b5e7201ed8dae",
+    "url": "/marketinigWepApp/static/css/main.2187a9ec.chunk.css"
   },
   {
     "revision": "ab76fb5f8363d8717384",
     "url": "/marketinigWepApp/static/js/2.5251ecd7.chunk.js"
   },
   {
-    "revision": "eb2855e34b162393bc1e",
+    "revision": "52573f1b5e7201ed8dae",
     "url": "/marketinigWepApp/static/js/main.14ae739d.chunk.js"
   },
   {
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b21f96e762e3d959c1980ef08283b69",
     "url": "/marketinigWepApp/static/media/blue-chevron.7b21f96e.svg"
-  },
-  {
-    "revision": "5b38966b6c3ed4a5427fa194029f056d",
-    "url": "/marketinigWepApp/static/media/image1-dark.5b38966b.jpg"
   },
   {
     "revision": "1d7d2b0f38e138e4f6230c6e6404a149",
