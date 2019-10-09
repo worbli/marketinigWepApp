@@ -16,7 +16,12 @@ $subtitle-font: 'Merriweather', serif;
     font-weight: 400;
     padding: 24px 0 36px 0;
     line-height: 30px;
+    text-transform: lowercase;
 }
+
+.item-title::first-letter {
+    text-transform: capitalize;
+  }
 
 .sub-title {
     font-family: $subtitle-font;
@@ -24,10 +29,12 @@ $subtitle-font: 'Merriweather', serif;
     font-weight: 400;
     padding-bottom: 100px;
     letter-spacing: -0.8px;
+    text-transform: lowercase;
 }
 p {
     line-height: 20px;
     margin-right: 12px;
+    white-space: pre-line;
 }
 
 ul {
@@ -59,5 +66,9 @@ li::before {
     background-image: url(../../images/blue-chevron.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.page-body {
+    max-width: 750px;
 }
 

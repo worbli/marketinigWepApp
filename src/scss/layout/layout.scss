@@ -24,6 +24,10 @@
     border-radius: 3px;
     box-shadow: $level-1;
 }
+.title-image {
+    margin-bottom: 100px;
+    width: 100%;
+}
 
 @media (prefers-color-scheme: dark) {
     .layout {

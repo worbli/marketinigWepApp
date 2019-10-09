@@ -1,13 +1,17 @@
 import React, { useContext } from 'react';
 import { Context } from "../../components/context";
-import { Translations } from '../../localization/dictionary';
+import { Copy } from '../../localization/pages/about/governance';
 
 const Governance: React.FC = () => {
   const { global } = useContext(Context) as {global: any};
-  const txt = Translations[global.language];
+  const cpy = Copy[global.language];
 
   return (    
-    <div>Governance</div>
+    <div className='max-width'>
+      <h2 className='title'>{cpy.title}</h2>
+      <h3 className='sub-title'>{cpy.subTitle}</h3>
+      <p>{cpy.body}</p>
+    </div>
   );
 }
 

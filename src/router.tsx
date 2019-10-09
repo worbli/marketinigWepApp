@@ -18,7 +18,7 @@ import { Partners } from './pages/our/partners';
 import { Press } from './pages/our/press';
 import { Contacts } from './pages/our/contacts';
 import { Report } from './pages/quick/report';
-import { BlockProducuers } from './pages/quick/blockProducuers';
+import { BlockProducers } from './pages/quick/blockProducers';
 import { Terms } from './pages/legal/terms';
 import { Privacy } from './pages/legal/privacy';
 import { Accessibility } from './pages/legal/accessibility';
@@ -53,7 +53,7 @@ const Router: React.FC = () => {
               <Route exact path = '/our/press' component = { Press }/>
               <Route exact path = '/our/contacts' component = { Contacts }/>
               <Route exact path = '/quick/report' component = { Report }/>
-              <Route exact path = '/quick/blockProducuers' component = { BlockProducuers }/>
+              <Route exact path = '/quick/blockProducers' component = { BlockProducers }/>
               <Route exact path = '/legal/terms' component = { Terms }/>
               <Route exact path = '/legal/privacy' component = { Privacy }/>
               <Route exact path = '/legal/accessibility' component = { Accessibility }/>
