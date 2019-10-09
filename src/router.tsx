@@ -3,8 +3,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Context } from "./components/context";
 import { Layout } from "./layout";
 import { Home } from './pages/home';
-import { NotFound } from './pages/notfound';
-
 import { Direction } from './pages/about/direction';
 import { Differences } from './pages/about/differences';
 import { Governance } from './pages/about/governance';
@@ -25,17 +23,12 @@ import { Terms } from './pages/legal/terms';
 import { Privacy } from './pages/legal/privacy';
 import { Accessibility } from './pages/legal/accessibility';
 import { Jurisdiction } from './pages/legal/jurisdiction';
-
+import { NotFound } from './pages/notfound';
 
 const Router: React.FC = () => {
 
   const [global, setGlobal] = useState({
     language: localStorage.getItem("language") || 'en',
-    apiUrl: 'https://oauth.dev.worbli.io/api',
-    loggedIn: localStorage.getItem("jwt") ? true : false,
-    redirectUrl: '',
-    modal: false,
-    modalState: '',
   });
 
   return (
