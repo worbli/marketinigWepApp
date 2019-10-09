@@ -22,7 +22,7 @@ const Home: React.FC = () => {
           <h3 className='sub-title'>{cpy.getInvolvedStrapline}</h3>
           <div className='three-column-grid'>
             <div>
-              <img src='./images/launchOnWorbli.png' alt=''/>
+              <img src='./images/launchOnWorbli.jpg' alt=''/>
               <h4 className='item-title'>{cpy.joinCardOneTitle}</h4>
               <p>{cpy.joinCardOneIntro}</p>
               <ul>
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
               </ul>
             </div>
             <div>
-            <img src='./images/partnerWithUs.png' alt=''/>
+            <img src='./images/partnerWithUs.jpg' alt=''/>
               <h4 className='item-title'>{cpy.joinCardTwoTitle}</h4>
               <p>{cpy.joinCardTwoIntro}</p>
               <ul>
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
               </ul>
             </div>
             <div>
-            <img src='./images/openAnAccount.png' alt=''/>
+            <img src='./images/openAnAccount.jpg' alt=''/>
               <h4 className='item-title'>{cpy.joinCardThreeTitle}</h4>
               <p>{cpy.joinCardThreeIntro}</p>
               <ul>
