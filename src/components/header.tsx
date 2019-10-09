@@ -31,7 +31,6 @@ const Header: React.FC = () => {
     if (dropDownWhoWeAre.current) dropDownWhoWeAre.current.style.display = 'none';
   }
   const openWhoWeAre = () => {
-    console.log('fire')
     if (dropDownWhoWeAre.current) dropDownWhoWeAre.current.style.display = 'block';
     if (dropDownGetInvolved.current) dropDownGetInvolved.current.style.display = 'none';
     if (dropDownProgress.current) dropDownProgress.current.style.display = 'none';
