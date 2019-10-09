@@ -52,37 +52,37 @@ const Header: React.FC = () => {
       <Link to={{pathname: '/'}}><h1>{txt.siteName}</h1></Link>
       <div></div>
       <div className='top-nav'>
-        <div className='dropdown-button' onClick={openAbout} id='dropdown-button'>About
+        <div className='dropdown-button' onClick={openAbout} id='dropdown-button'>{txt.about}
           <span className='dropdown' ref={dropDownAbout}>
-            <Link to={{pathname: '/about/direction'}}>Direction / aim</Link>
-            <Link to={{pathname: '/about/differences'}}>Key differences</Link>
-            <Link to={{pathname: '/about/governance'}}>Governance & complience</Link>
+            <Link to={{pathname: '/about/direction'}}>{txt.directionAim}</Link>
+            <Link to={{pathname: '/about/differences'}}>{txt.keyDifferences}</Link>
+            <Link to={{pathname: '/about/governance'}}>{txt.governanceComplience}</Link>
           </span>
         </div>
 
-        <div className='dropdown-button' onClick={openGetInvolved} id='dropdown-button'>Get Involved
+        <div className='dropdown-button' onClick={openGetInvolved} id='dropdown-button'>{txt.getInvolved}
         <span className='dropdown' ref={dropDownGetInvolved}>
-            <Link to={{pathname: '/getInvolved/launch'}}>Launch on Worbli</Link>
-            <Link to={{pathname: '/getInvolved/partner'}}>Partner with us</Link>
-            <Link to={{pathname: '/getInvolved/account'}}>Open an account</Link>
+            <Link to={{pathname: '/getInvolved/launch'}}>{txt.launchOnWorbli}</Link>
+            <Link to={{pathname: '/getInvolved/partner'}}>{txt.partnerWithUs}</Link>
+            <Link to={{pathname: '/getInvolved/account'}}>{txt.openAnAccount}</Link>
           </span>
         </div>
 
         <div className='dropdown-button' onClick={openProgress} id='dropdown-button'>Progress
         <span className='dropdown' ref={dropDownProgress}>
-            <Link to={{pathname: '/progress/updates'}}>Latest Updates</Link>
-            <Link to={{pathname: '/progress/launches'}}>Application Launches</Link>
-            <Link to={{pathname: '/progress/technical'}}>Technical Updates</Link>
+            <Link to={{pathname: '/progress/updates'}}>{txt.latestUpdates}</Link>
+            <Link to={{pathname: '/progress/launches'}}>{txt.applicationLaunches}</Link>
+            <Link to={{pathname: '/progress/technical'}}>{txt.technicalUpdates}</Link>
           </span>
         </div>
 
-        <div className='dropdown-button' onClick={openWhoWeAre} id='dropdown-button'>Who we are
+        <div className='dropdown-button' onClick={openWhoWeAre} id='dropdown-button'>{txt.whoWeAre}
         <span className='dropdown' ref={dropDownWhoWeAre}>
-            <Link to={{pathname: '/our/team'}}>The Team</Link>
-            <Link to={{pathname: '/our/foundation'}}>Foundation</Link>
-            <Link to={{pathname: '/our/partners'}}>Our Partners</Link>
-            <Link to={{pathname: '/our/press'}}>Press releases</Link>
-            <Link to={{pathname: '/our/contacts'}}>Contact us</Link>
+            <Link to={{pathname: '/our/team'}}>{txt.theTeam}</Link>
+            <Link to={{pathname: '/our/foundation'}}>{txt.foundation}</Link>
+            <Link to={{pathname: '/our/partners'}}>{txt.ourPartners}</Link>
+            <Link to={{pathname: '/our/press'}}>{txt.pressReleases}</Link>
+            <Link to={{pathname: '/our/contacts'}}>{txt.contactUs}</Link>
           </span>
         </div>
         
