@@ -20,6 +20,9 @@
 }
 .three-column-grid img {
     width: 100%;
+    filter: brightness(1);
+    border-radius: 3px;
+    box-shadow: $level-1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +31,10 @@
             background-color: $medium-jungle-green;
         }
     }
+    .three-column-grid img {
+        width: 100%;
+        filter: brightness(0.7);
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -35,5 +42,9 @@
         .layout-header {
             background-color: $white;
         }
+    }
+    .three-column-grid img {
+        width: 100%;
+        filter: brightness(1);
     }
 }

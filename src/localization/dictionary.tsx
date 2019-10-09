@@ -76,7 +76,7 @@ const Translations: { [key: string]: TranslationsInterface; } = {
     joinCardOneTitle: 'Launch On Worbli',
     joinCardTwoTitle: 'Partner With Us',
     joinCardThreeTitle: 'Open An Account',
-    progressCardOneTitle: 'Worbli parners with wordproof',
+    progressCardOneTitle: 'Worbli partners with wordproof',
     progressCardTwoTitle: 'Every month new partners launch',
     progressCardThreeTitle: 'Chain updates and new protocols',
     getInvolvedTitle: 'Get involved',

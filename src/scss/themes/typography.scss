@@ -35,10 +35,20 @@ ul {
     font-size: 14px;
     white-space: nowrap;
     margin-top: 24px;
+    font-weight: 400;
 }
 li {
     text-indent: 18px;
-    line-height: 24px
+    line-height: 24px;
+    cursor: pointer;
+}
+li a {
+    text-decoration: none;
+    color: $charcoal;
+}
+li a:hover{
+    text-decoration: underline;
+    color: $bleu-de-france;
 }
 li::before {
     width: 6px;

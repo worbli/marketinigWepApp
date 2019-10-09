@@ -9,6 +9,7 @@
     position: relative;
     box-shadow: $level-1;
     border: 1px solid #cecece;
+    filter: brightness(1);
 
     .left-button {
         position: absolute;
@@ -51,6 +52,7 @@
 @media (prefers-color-scheme: dark) {
     .carousel {
         border: 1px solid #000;
+        filter: brightness(0.7);
         .left-button {
             background-color: $dark-lava;
             background-image: url(../../images/carousel/left-dark.svg);
@@ -71,6 +73,7 @@
 @media (prefers-color-scheme: light) {
     .carousel {
         border: 1px solid #cecece;
+        filter: brightness(1);
         .left-button {
             background-color: $isabelline;
             background-image: url(../../images/carousel/left-light.svg);

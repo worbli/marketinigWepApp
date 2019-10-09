@@ -14,7 +14,7 @@
     }
     .top-nav {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         grid-gap: 12px;
         justify-items: center;
         align-items: center;
@@ -26,6 +26,7 @@
         align-items: center;
         display: grid;
         position: relative;
+        font-weight: 500;
     }
     .top-nav div::after {
         width: 6px;
@@ -38,12 +39,63 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+    .dropdown-button {
+        position: relative;
+        cursor: pointer;
+    }
+    .dropdown {
+        font-weight: 400;
+        position: absolute;
+        top: 49px;
+        right: 0px;
+        z-index: 50;
+        display: none;
+        background-color: $white;
+        box-shadow: $level-1;
+        border-radius: 5px;
+        padding: 6px 0;
+    }
+    .dropdown a {
+        display: block;
+        width: auto;
+        text-decoration: none;
+        padding: 6px 30px 6px 12px;
+        color: $charcoal;
+        cursor: pointer;
+        position: relative;
+        white-space: nowrap;
+    }
+    .dropdown a:hover {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        padding: 6px 30px 6px 12px;
+        background-color: $isabelline;
+    }
+    .dropdown a:hover::before {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 28px;
+        background-color: $bleu-de-france;
+        left: 0;
+        top: 0;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
     .header {
         h1 {
             background-image: url(../../images/logo-dark.svg);
+        }
+        .dropdown {
+            background-color: $medium-jungle-green;
+        }
+        .dropdown a {
+            color: $white;
+        }
+        .dropdown a:hover {
+            background-color: $dark-lava;
         }
     }
 }
@@ -52,6 +104,15 @@
     .header {
         h1 {
             background-image: url(../../images/logo-light.svg);
+        }
+        .dropdown {
+            background-color: $white;
+        }
+        .dropdown a {
+            color: $charcoal;
+        }
+        .dropdown a:hover {
+            background-color: $isabelline;
         }
     }
 }
