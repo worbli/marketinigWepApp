@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   return (    
     <div className='footer max-width'>
       <div>{txt.quickLinks}
-        <ul>
+        <ul  className='link'>
           <li><a href='https://worbli.bloks.io/' target='_blank' rel="noopener noreferrer">{txt.blockExplorer}</a></li>
           <li><a href='https://www.chainrift.com/trading?coinpair=WBI/EOS&' target='_blank' rel="noopener noreferrer">{txt.exchange}</a></li>
           <li><Link to={{pathname: '/quick/report'}}>{txt.reportAVulnrability}</Link></li>
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         </ul>
       </div>
       <div>Follow us
-      <ul>
+      <ul  className='link'>
           <li><a href='https://medium.com/@WORBLI' target='_blank' rel="noopener noreferrer">{txt.medium}</a></li>
           <li><a href='https://twitter.com/WORBLI' target='_blank' rel="noopener noreferrer">{txt.twitter}</a></li>
           <li><a href='https://www.facebook.com/worbli' target='_blank' rel="noopener noreferrer">{txt.facebook}</a></li>
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
         </ul>
       </div>
       <div> {txt.legal}
-        <ul>
+        <ul  className='link'>
           <li><Link to={{pathname: '/legal/terms'}}>{txt.termsOfService}</Link></li>
           <li><Link to={{pathname: '/legal/privacy'}}>{txt.privacy}</Link></li>
           <li><Link to={{pathname: '/legal/accessibility'}}>{txt.accessibility}</Link></li>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         </ul>
       </div>
       <div>{txt.contact}
-      <ul>
+      <ul  className='link'>
           <li><a href='mailto:hello@worbli.io' target='_blank' rel="noopener noreferrer">{txt.email}</a></li>
           <li><a href='https://worbli.zendesk.com/hc/en-us' target='_blank' rel="noopener noreferrer">{txt.support}</a></li>
           <li><a href='mailto:careers@worbli.io' target='_blank' rel="noopener noreferrer">{txt.careers}</a></li>

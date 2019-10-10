@@ -25,7 +25,7 @@ const Home: React.FC = () => {
               <img src='./images/launchOnWorbli.jpg' alt=''/>
               <h4 className='item-title'>{cpy.joinCardOneTitle}</h4>
               <p>{cpy.joinCardOneIntro}</p>
-              <ul>
+              <ul className='link'>
                 <li><Link to={{pathname: '/getInvolved/launch'}}>Launch on Worbli</Link></li>
                 <li><Link to={{pathname: '/progress/launches'}}>Recent launche</Link>s</li>
               </ul>
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
             <img src='./images/partnerWithUs.jpg' alt=''/>
               <h4 className='item-title'>{cpy.joinCardTwoTitle}</h4>
               <p>{cpy.joinCardTwoIntro}</p>
-              <ul>
+              <ul className='link'>
                 <li><Link to={{pathname: '/getInvolved/partner'}}>Partner wth us</Link></li>
                 <li><Link to={{pathname: '/our/partners'}}>Our partners</Link></li>
               </ul>
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
             <img src='./images/openAnAccount.jpg' alt=''/>
               <h4 className='item-title'>{cpy.joinCardThreeTitle}</h4>
               <p>{cpy.joinCardThreeIntro}</p>
-              <ul>
+              <ul className='link'>
                 <li><Link to={{pathname: '/getInvolved/account'}}>Open an account</Link></li>
               </ul>
             </div>

@@ -19,6 +19,14 @@ $subtitle-font: 'Merriweather', serif;
     text-transform: lowercase;
 }
 
+.body-title {
+    font-family: $title-font;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 36px 0 36px 0;
+    line-height: 36px;
+}
+
 .item-title::first-letter {
     text-transform: capitalize;
   }
@@ -37,38 +45,51 @@ p {
     white-space: pre-line;
 }
 
-ul {
+
+.link {
     position: relative;
     font-size: 14px;
     white-space: nowrap;
     margin-top: 24px;
     font-weight: 400;
-}
-li {
-    text-indent: 18px;
-    line-height: 24px;
-    cursor: pointer;
-}
-li a {
-    text-decoration: none;
-    color: $charcoal;
-}
-li a:hover{
-    text-decoration: underline;
-    color: $bleu-de-france;
-}
-li::before {
-    width: 6px;
-    height: 10px;
-    content: '';
-    position: absolute;
-    transform: translate(-18px , 7px);
-    background-image: url(../../images/blue-chevron.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    li {
+        text-indent: 18px;
+        line-height: 24px;
+        cursor: pointer;
+    }
+    li a {
+        text-decoration: none;
+        color: $charcoal;
+    }
+    li a:hover{
+        text-decoration: underline;
+        color: $bleu-de-france;
+    }
+    li::before {
+        width: 6px;
+        height: 10px;
+        content: '';
+        position: absolute;
+        transform: translate(-18px , 7px);
+        background-image: url(../../images/blue-chevron.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
-.page-body {
+
+
+.body-copy {
     max-width: 750px;
+    padding-bottom: 20px;
+    cursor: default;
+    ul {
+        padding-top: 12px;
+        li {
+            list-style-type: disc;
+            transform: translateX(25px);
+            padding-top: 12px;
+        }
+    }
 }
 
