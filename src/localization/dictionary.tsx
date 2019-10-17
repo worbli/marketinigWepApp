@@ -40,6 +40,38 @@ interface TranslationsInterface {
   support: string
   careers: string
   arbitration: string
+  directionTitle: string
+  directionSubTitle: string
+  differencesTitle: string
+  differencesSubTitle: string
+  governanceTitle: string
+  governanceSubTitle: string
+  launchTitle: string
+  launchSubTitle: string
+  partnerTitle: string
+  partnerSubTitle: string
+  updatesTitle: string
+  updatesSubTitle: string
+  launchesTitle: string
+  launchesSubTitle: string
+  technicalTitle: string
+  technicalSubTitle: string
+  teamTitle: string
+  teamSubTitle: string
+  foundationTitle: string
+  foundationSubTitle: string
+  partnersTitle: string
+  partnersSubTitle: string
+  pressTitle: string
+  pressSubTitle: string
+  reportTitle: string
+  reportSubTitle: string
+  blockProducersTitle: string
+  blockProducersSubTitle: string
+  termsTitle: string
+  termsSubTitle: string
+  privacyTitle: string
+  privacySubTitle: string
 }
 
 const Translations: { [key: string]: TranslationsInterface; } = {
@@ -85,6 +117,38 @@ const Translations: { [key: string]: TranslationsInterface; } = {
     support: 'Support',
     careers: 'Careers',
     arbitration: 'Arbitration',
+    directionTitle: 'string',
+    directionSubTitle: 'string',
+    differencesTitle: 'string',
+    differencesSubTitle: 'string',
+    governanceTitle: 'string',
+    governanceSubTitle: 'string',
+    launchTitle: 'string',
+    launchSubTitle: 'string',
+    partnerTitle: 'string',
+    partnerSubTitle: 'string',
+    updatesTitle: 'string',
+    updatesSubTitle: 'string',
+    launchesTitle: 'string',
+    launchesSubTitle: 'string',
+    technicalTitle: 'string',
+    technicalSubTitle: 'string',
+    teamTitle: 'string',
+    teamSubTitle: 'string',
+    foundationTitle: 'string',
+    foundationSubTitle: 'string',
+    partnersTitle: 'string',
+    partnersSubTitle: 'string',
+    pressTitle: 'string',
+    pressSubTitle: 'string',
+    reportTitle: 'string',
+    reportSubTitle: 'string',
+    blockProducersTitle: 'string',
+    blockProducersSubTitle: 'string',
+    termsTitle: 'string',
+    termsSubTitle: 'string',
+    privacyTitle: 'string',
+    privacySubTitle: 'string',
   },
   kr: {
     language: '한국어',
@@ -128,6 +192,38 @@ const Translations: { [key: string]: TranslationsInterface; } = {
     support: 'Support',
     careers: 'Careers',
     arbitration: 'Arbitration',
+    directionTitle: 'string',
+    directionSubTitle: 'string',
+    differencesTitle: 'string',
+    differencesSubTitle: 'string',
+    governanceTitle: 'string',
+    governanceSubTitle: 'string',
+    launchTitle: 'string',
+    launchSubTitle: 'string',
+    partnerTitle: 'string',
+    partnerSubTitle: 'string',
+    updatesTitle: 'string',
+    updatesSubTitle: 'string',
+    launchesTitle: 'string',
+    launchesSubTitle: 'string',
+    technicalTitle: 'string',
+    technicalSubTitle: 'string',
+    teamTitle: 'string',
+    teamSubTitle: 'string',
+    foundationTitle: 'string',
+    foundationSubTitle: 'string',
+    partnersTitle: 'string',
+    partnersSubTitle: 'string',
+    pressTitle: 'string',
+    pressSubTitle: 'string',
+    reportTitle: 'string',
+    reportSubTitle: 'string',
+    blockProducersTitle: 'string',
+    blockProducersSubTitle: 'string',
+    termsTitle: 'string',
+    termsSubTitle: 'string',
+    privacyTitle: 'string',
+    privacySubTitle: 'string',
   },
   en: {
     language: 'English',
@@ -171,6 +267,38 @@ const Translations: { [key: string]: TranslationsInterface; } = {
     support: 'Support',
     careers: 'Careers',
     arbitration: 'Arbitration',
+    directionTitle: 'string',
+    directionSubTitle: 'string',
+    differencesTitle: 'string',
+    differencesSubTitle: 'string',
+    governanceTitle: 'string',
+    governanceSubTitle: 'string',
+    launchTitle: 'string',
+    launchSubTitle: 'string',
+    partnerTitle: 'string',
+    partnerSubTitle: 'string',
+    updatesTitle: 'string',
+    updatesSubTitle: 'string',
+    launchesTitle: 'string',
+    launchesSubTitle: 'string',
+    technicalTitle: 'string',
+    technicalSubTitle: 'string',
+    teamTitle: 'string',
+    teamSubTitle: 'string',
+    foundationTitle: 'string',
+    foundationSubTitle: 'string',
+    partnersTitle: 'string',
+    partnersSubTitle: 'string',
+    pressTitle: 'string',
+    pressSubTitle: 'string',
+    reportTitle: 'string',
+    reportSubTitle: 'string',
+    blockProducersTitle: 'string',
+    blockProducersSubTitle: 'string',
+    termsTitle: 'string',
+    termsSubTitle: 'string',
+    privacyTitle: 'string',
+    privacySubTitle: 'string',
   },
 }
 export { Translations }
