@@ -8,7 +8,7 @@ const Direction: React.FC = () => {
   
 useEffect(() => {
   const getMarkdown = async () => {
-    const response = await fetch(`../../../markdown/${global.language}/direction.md`);    
+    const response = await fetch(`https://worbli.github.io/marketinigWepApp/markdown/${global.language}/direction.md`);    
     const src = await response.text();
     if (state.src === '') setState({ ...state, src});
   }

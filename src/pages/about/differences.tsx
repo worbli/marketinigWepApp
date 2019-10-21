@@ -8,7 +8,7 @@ const Differences: React.FC = () => {
   
 useEffect(() => {
   const getMarkdown = async () => {
-    const response = await fetch(`../../../markdown/${global.language}/differences.md`);    
+    const response = await fetch(`https://worbli.github.io/marketinigWepApp/markdown/${global.language}/differences.md`);    
     const src = await response.text();
     if (state.src === '') setState({ ...state, src});
   }

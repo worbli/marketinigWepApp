@@ -1,5 +1,5 @@
 
-## Strategic Partners
+## Our Partners
 ### Subtitle
 
 ![page image](../images/partners.jpg)

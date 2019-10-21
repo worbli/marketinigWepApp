@@ -8,7 +8,7 @@ const Foundation: React.FC = () => {
   
 useEffect(() => {
   const getMarkdown = async () => {
-    const response = await fetch(`../../../markdown/${global.language}/foundation.md`);    
+    const response = await fetch(`https://worbli.github.io/marketinigWepApp/markdown/${global.language}/foundation.md`);    
     const src = await response.text();
     if (state.src === '') setState({ ...state, src});
   }

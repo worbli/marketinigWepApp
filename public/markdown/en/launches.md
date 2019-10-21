@@ -1,4 +1,4 @@
-## Launches
+## Application launches
 ### Subtitle
 
 ![page image](../images/launches.jpg)

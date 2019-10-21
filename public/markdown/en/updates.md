@@ -1,4 +1,4 @@
-## Updates
+## Latest updates
 ### Subtitle
 
 ![page image](../images/updates.jpg)

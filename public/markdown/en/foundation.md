@@ -1,4 +1,4 @@
-## The Worbli Foundation
+## Foundation
 ### Subtitle
 
 ![page image](../images/foundation.jpg)

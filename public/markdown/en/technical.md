@@ -1,4 +1,4 @@
-## Technical
+## Technical Updates
 ### Subtitle
 
 ![page image](../images/technical.jpg)
