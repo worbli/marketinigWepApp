@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/marketinigWepApp/static/css/main.dbc9ea23.chunk.css",
-    "main.js": "/marketinigWepApp/static/js/main.0e7d45b6.chunk.js",
-    "main.js.map": "/marketinigWepApp/static/js/main.0e7d45b6.chunk.js.map",
+    "main.css": "/marketinigWepApp/static/css/main.7990f8c9.chunk.css",
+    "main.js": "/marketinigWepApp/static/js/main.699a06c6.chunk.js",
+    "main.js.map": "/marketinigWepApp/static/js/main.699a06c6.chunk.js.map",
     "runtime-main.js": "/marketinigWepApp/static/js/runtime-main.eeec4441.js",
     "runtime-main.js.map": "/marketinigWepApp/static/js/runtime-main.eeec4441.js.map",
-    "static/js/2.e8339ade.chunk.js": "/marketinigWepApp/static/js/2.e8339ade.chunk.js",
-    "static/js/2.e8339ade.chunk.js.map": "/marketinigWepApp/static/js/2.e8339ade.chunk.js.map",
+    "static/js/2.90c5bb0b.chunk.js": "/marketinigWepApp/static/js/2.90c5bb0b.chunk.js",
+    "static/js/2.90c5bb0b.chunk.js.map": "/marketinigWepApp/static/js/2.90c5bb0b.chunk.js.map",
     "index.html": "/marketinigWepApp/index.html",
-    "precache-manifest.23d155d89c333e4625aa1868280b0d7f.js": "/marketinigWepApp/precache-manifest.23d155d89c333e4625aa1868280b0d7f.js",
+    "precache-manifest.dd0bf5a0888118ee15996e0c4397fe3e.js": "/marketinigWepApp/precache-manifest.dd0bf5a0888118ee15996e0c4397fe3e.js",
     "service-worker.js": "/marketinigWepApp/service-worker.js",
-    "static/css/main.dbc9ea23.chunk.css.map": "/marketinigWepApp/static/css/main.dbc9ea23.chunk.css.map",
-    "static/media/index.scss": "/marketinigWepApp/static/media/right-light.f009f6f0.svg",
-    "static/media/differences.jpg": "/marketinigWepApp/static/media/differences.1bcc36a3.jpg",
-    "static/media/direction.jpg": "/marketinigWepApp/static/media/direction.8c4cbb01.jpg",
-    "static/media/launch.jpg": "/marketinigWepApp/static/media/launch.da1ba12a.jpg",
-    "static/media/partner.jpg": "/marketinigWepApp/static/media/partner.aa8e1d0a.jpg"
+    "static/css/main.7990f8c9.chunk.css.map": "/marketinigWepApp/static/css/main.7990f8c9.chunk.css.map",
+    "static/media/index.scss": "/marketinigWepApp/static/media/right-light.f009f6f0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eeec4441.js",
-    "static/js/2.e8339ade.chunk.js",
-    "static/css/main.dbc9ea23.chunk.css",
-    "static/js/main.0e7d45b6.chunk.js"
+    "static/js/2.90c5bb0b.chunk.js",
+    "static/css/main.7990f8c9.chunk.css",
+    "static/js/main.699a06c6.chunk.js"
   ]
 }
