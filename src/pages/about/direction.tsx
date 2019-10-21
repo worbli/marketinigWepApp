@@ -1,19 +1,25 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Context } from "../../components/context";
-import image from '../../images/pages/direction.jpg'
+import ReactMarkdown from 'react-markdown';
 
 const Direction: React.FC = () => {
   const { global } = useContext(Context) as {global: any};
+  const [state, setState] = useState({src: ''});
+  
+useEffect(() => {
+  const getMarkdown = async () => {
+    const response = await fetch(`../../../markdown/${global.language}/direction.md`);    
+    const src = await response.text();
+    if (state.src === '') setState({ ...state, src});
+  }
+  getMarkdown();
+}, [global.language, state]);
 
   return (    
       <div className='max-width'>
-        { global.language === 'en' && 
           <span className='body'>
-            <h2 className='title'>Direction / aim</h2>
-            <h3 className='sub-title'>worbli is built for access, transparency, and unity.</h3>
-            <img src={image} className='title-image' />
+            <ReactMarkdown source={state.src} />
           </span>
-        }
       </div>
   );
 }

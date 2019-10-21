@@ -1,3 +1,7 @@
+## Governance
+### Subtitle
+
+![page image](../images/governance.jpg)
 
 A critical trait is a built in governance layer. For WORBLI, That means we can set the rules of the blockchain in the foundation. 
 

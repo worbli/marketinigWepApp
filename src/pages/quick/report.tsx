@@ -1,13 +1,26 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Context } from "../../components/context";
-import { Copy } from '../../localization/pages/quick/report';
+import ReactMarkdown from 'react-markdown';
 
 const Report: React.FC = () => {
   const { global } = useContext(Context) as {global: any};
-  const cpy = Copy[global.language];
+  const [state, setState] = useState({src: ''});
+  
+useEffect(() => {
+  const getMarkdown = async () => {
+    const response = await fetch(`../../../markdown/${global.language}/report.md`);    
+    const src = await response.text();
+    if (state.src === '') setState({ ...state, src});
+  }
+  getMarkdown();
+}, [global.language, state]);
 
   return (    
-    <div>Report</div>
+      <div className='max-width'>
+          <span className='body'>
+            <ReactMarkdown source={state.src} />
+          </span>
+      </div>
   );
 }
 

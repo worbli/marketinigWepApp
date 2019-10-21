@@ -1,13 +1,27 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Context } from "../../components/context";
-import { Copy } from '../../localization/pages/progress/updates';
+import ReactMarkdown from 'react-markdown';
 
 const Updates: React.FC = () => {
   const { global } = useContext(Context) as {global: any};
-  const cpy = Copy[global.language];
+  const [state, setState] = useState({src: ''});
+  
+useEffect(() => {
+  const getMarkdown = async () => {
+    const response = await fetch(`../../../markdown/${global.language}/updates.md`);    
+    const src = await response.text();
+    if (state.src === '') setState({ ...state, src});
+  }
+  getMarkdown();
+}, [global.language, state]);
 
   return (    
-    <div>Updates</div>
+      <div className='max-width'>
+          <span className='body'>
+            <ReactMarkdown source={state.src} />
+          </span>
+      </div>
   );
 }
+
 export { Updates };

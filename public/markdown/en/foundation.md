@@ -1,5 +1,7 @@
+## The Worbli Foundation
+### Subtitle
 
-## The WORBLI Foundation
+![page image](../images/foundation.jpg)
 
 The WORBLI Foundation is a not for profit organisation that is committed to fulfilling our vision through the creation of a vibrant WORBLI community, with the following protocols:
 

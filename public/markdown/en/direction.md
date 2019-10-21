@@ -1,3 +1,8 @@
+## Direction / Aim
+### Subtitle
+
+![image of a bow being pulled back](../images/direction.jpg)
+
 WORBLI was created with the intention of supplying a safe platform for users and developers to engage all the benefits of DLT (distributed ledger technology) without the risks. A platform which is robust enough to scale to the speed and accessibility of modern centralized platforms while reducing user friction and costs to applications.
 
 A place where the most innovative of applications can exist within the confines of the latest regulatory restrictions. Where compliance and innovation are at the forefront of the mission

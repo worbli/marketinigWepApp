@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from "../components/context";
 import { Carousel } from "../components/carousel";
-import { Translations } from '../localization/dictionary';
 import { HomeCopy } from '../localization/pages/home';
 import { Link } from 'react-router-dom';
 

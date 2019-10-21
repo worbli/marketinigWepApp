@@ -1,4 +1,8 @@
-## WORBLI in the press.
+## In the press
+### Subtitle
+
+![page image](../images/press.jpg)
+
 
 [https://www.marketwatch.com/press-release/worbli-partners-with-eos-canada-to-bring-dfuse-to-the-worbli-network-2019-07-25](https://www.marketwatch.com/press-release/worbli-partners-with-eos-canada-to-bring-dfuse-to-the-worbli-network-2019-07-25)
 

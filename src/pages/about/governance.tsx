@@ -1,16 +1,26 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Context } from "../../components/context";
-import { copy } from '../../localization/pages/about/governance';
+import ReactMarkdown from 'react-markdown';
 
 const Governance: React.FC = () => {
   const { global } = useContext(Context) as {global: any};
-  const cpy = copy[global.language];
+  const [state, setState] = useState({src: ''});
+  
+useEffect(() => {
+  const getMarkdown = async () => {
+    const response = await fetch(`../../../markdown/${global.language}/governance.md`);    
+    const src = await response.text();
+    if (state.src === '') setState({ ...state, src});
+  }
+  getMarkdown();
+}, [global.language, state]);
 
   return (    
-    <div className='max-width'>
-      <h2 className='title'>{cpy.title}</h2>
-      <h3 className='sub-title'>{cpy.subTitle}</h3>
-    </div>
+      <div className='max-width'>
+          <span className='body'>
+            <ReactMarkdown source={state.src} />
+          </span>
+      </div>
   );
 }
 

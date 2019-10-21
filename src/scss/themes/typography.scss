@@ -3,7 +3,7 @@ $base-font: "Hanken Grotesk", "Helvetica Neue", sans-serif;
 $title-font: 'Open Sans', sans-serif;
 $subtitle-font: 'Merriweather', serif;
 
-.title {
+.title, h2 {
     font-family: $title-font;
     font-size: 72px;
     font-weight: 400;
@@ -31,7 +31,7 @@ $subtitle-font: 'Merriweather', serif;
     text-transform: capitalize;
   }
 
-.sub-title {
+.sub-title, h3{
     font-family: $subtitle-font;
     font-size: 22px;
     font-weight: 400;
@@ -43,6 +43,11 @@ p {
     line-height: 20px;
     margin-right: 12px;
     white-space: pre-line;
+}
+
+.body p {
+    margin-bottom: 24px;
+    max-width:750px;
 }
 
 

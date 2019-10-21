@@ -1,3 +1,7 @@
+## Key Differences
+### Subtitle
+
+![page image](../images/differences.jpg)
 
 #### APIs are custom, agile and managed by our proprietary SLAs (Service Level Agreements). We can cater them to individual enterprise needs
 

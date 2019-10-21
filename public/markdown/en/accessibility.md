@@ -1,5 +1,8 @@
+## Accessibility Statement
+### Subtitle
 
-##  **ACCESSIBILITY STATEMENT**
+![page image](../images/accessibility.jpg)
+
 1.  **ACCESSIBILITY**
     1.1  By using the website [insert name] you confirm that you have read, understood and accepted the terms of this statement. If you do not agree, you are kindly requested not to access the website.
 

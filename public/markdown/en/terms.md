@@ -1,5 +1,8 @@
+## Terms
+### Subtitle
 
-## **WEBSITE TERMS**
+![page image](../images/terms.jpg)
+
 1.  **THE PLATFORM**
 
 	1.1  World Blockchain Initiative, LLC or any other entity that directly or indirectly controls, is controlled by, or is under common control with World Blockchain Initiative, LLC (collectively "WORBLI") created the WORBLI online platform at the URL https://www.worbli.io (the "Platform"), which includes other websites added to the Platform from time to time to provide a medium where you ("You" or "Your") and other users and other interested parties (each, a "User" and collectively, "Users") may sign up to a WORBLI account, obtain information, post comments, provide reviews, and engage in conversation threads around WORBLI and the WORBLI blockchain network (the "Network").

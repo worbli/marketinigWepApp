@@ -1,4 +1,8 @@
-#### WORBLI Resources
+## Technical
+### Subtitle
+
+![page image](../images/technical.jpg)
+
 
 The WORBLI network has been optimized for Decentralized Finance (DeFi) and enterprise-grade services through our innovative resource model. Our Delegated Proof of Utility (DPOU) consensus protocols, inflation algorithms and resource management models ensure efficient running our network. Learn more here.
 

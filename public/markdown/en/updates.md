@@ -1,3 +1,7 @@
+## Updates
+### Subtitle
+
+![page image](../images/updates.jpg)
 
 **EOSIO 1.8.1 Being Deployed on WORBLI**
 

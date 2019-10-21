@@ -1,4 +1,8 @@
-## PRIVACY POLICY**
+## Privacy Policy
+### Subtitle
+
+![page image](../images/privacy.jpg)
+
 
 1.  **Introduction**
 

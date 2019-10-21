@@ -1,5 +1,9 @@
 
-## WORBLI Strategic Partners
+## Strategic Partners
+### Subtitle
+
+![page image](../images/partners.jpg)
+
 _**Chintai EOS**_
 
 Chintai is a global decentralised leasing platform for the Blockchain. Built by the team behind EOS42, the EOS top 10 Block Producer. With high performance, fee-less and community owned token leasing platform. Chintai are reinventing the global equity blockchain through a smart, easy-to-use platform connecting the EOS community and dApp developers entirely disrupting the way businesses access blockchain bandwidth.
