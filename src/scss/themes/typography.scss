@@ -84,17 +84,48 @@ p {
 
 
 
-.body-copy {
+.body {
     max-width: 750px;
     padding-bottom: 20px;
     cursor: default;
     ul {
         padding-top: 12px;
+        padding-bottom: 42px;
         li {
-            list-style-type: disc;
+            // list-style-type: disc;
             transform: translateX(25px);
             padding-top: 12px;
+        }
+        li::before {
+            width: 6px;
+            height: 10px;
+            content: '';
+            position: absolute;
+            transform: translate(-18px , 3px);
+            background-image: url(../../images/blue-chevron.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    a {
+        color: $bleu-de-france; 
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .link {
+        li a {
+            text-decoration: none;
+            color: $white;
         }
     }
 }
 
+@media (prefers-color-scheme: light) {
+    .link {
+        li a {
+            text-decoration: none;
+            color: $charcoal;
+        }
+    }
+}

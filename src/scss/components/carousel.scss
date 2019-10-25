@@ -12,6 +12,7 @@
     filter: brightness(1);
 
     .left-button {
+        display: none;
         position: absolute;
         left: 0;
         top: 190px;
@@ -30,6 +31,7 @@
     }
 
     .right-button {
+        display: none;
         position: absolute;
         right: 0;
         top: 190px;
