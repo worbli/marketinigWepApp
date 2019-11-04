@@ -34,7 +34,7 @@ const Home: React.FC = () => {
               <h4 className='item-title'>{cpy.joinCardTwoTitle}</h4>
               <p>{cpy.joinCardTwoIntro}</p>
               <ul className='link'>
-                <li><Link to={{pathname: '/getInvolved/partner'}}>Partner wth us</Link></li>
+                <li><Link to={{pathname: '/getInvolved/partner'}}>Partner with us</Link></li>
                 <li><Link to={{pathname: '/our/partners'}}>Our partners</Link></li>
               </ul>
             </div>
