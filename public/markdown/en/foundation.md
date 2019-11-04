@@ -3,10 +3,10 @@
 
 ![page image](../images/foundation.jpg)
 
-The WORBLI Foundation is a not for profit organisation that is committed to fulfilling our vision through the creation of a vibrant WORBLI community, with the following protocols:
+The WORBLI Foundation is a not for profit organization that is committed to fulfilling our vision through the creation of a vibrant WORBLI community, with the following protocols:
 
-- Project Software will be open-sourced, with some potential patent applications for proprietary technology - all community owned
- - Decentralised decision-making by the community for all macroeconomic decisions
+- Project Software will be open-sourced, with some potential patent applications for proprietary technology - all community-owned
+ - Decentralized decision-making by the community for all macroeconomic decisions
 - Day-to-day operations, marketing, and general project management executed by the WORBLI Foundation team
 -  Total financial transparency
 - Board of directors made up of representatives from our Block Producers to start and evolving into a representation of the whole of WORBLI’s stakeholders.
