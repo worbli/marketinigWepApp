@@ -3,25 +3,25 @@
 
 ![page image](../images/launch.jpg)
 
-WORBLI provides fertile ground for applications to be able to develop, innovate and prosper within the ever changing regulatory environment. We make compliance easy, affordable and within reach for small and large applications alike.
+WORBLI provides fertile ground for applications to be able to develop, innovate and prosper within the ever-changing regulatory environment. We make compliance easy, affordable and within reach for small and large applications alike.
 
-WORBLI has a number of unique value propositions for developers. We are enabling opportunity for expansion and growth
+WORBLI has a number of unique value propositions for developers. We are enabling the opportunity for expansion and growth
 
 #### Free user account creation
 
-We take the guess work and additional costs out of ensuring legitimate verified users through our easy to follow portal interface.
+We take the guesswork and additional costs out of ensuring legitimate verified users through our easy to follow portal interface.
 
-#### Lightning fast transaction speeds with unlimited scalability
+#### Lightning-fast transaction speeds with unlimited scalability
 
 Zero congestion, zero frictional lag. We use superior technology to ensure your customers have the best user experience.
 
 #### Stable resource pricing
 
-Developers building on Distributed ledger technology need to know their costs. Stable resource pricing takes the guess work out of knowing your bottom line. WORBLI's resource model ensures that people can operate freely within the ecosystem without having to pay additional fees just to send transactions or interact with your application.
+Developers building on Distributed Ledger Technology need to know their costs. Stable resource pricing takes the guess work out of knowing your bottom line. WORBLI's resource model ensures that people can operate freely within the ecosystem without having to pay additional fees just to send transactions or interact with your application.
 
 #### Infrastructure to bridge the gap
 
-With a vast array of infrastructure upgrades including social sign in, payment processors, and easy to navigate developer tools, WORBLI makes building your application seamless from start to finish. Intuitive UX & UI, Optimized for Simplicity.
+With a vast array of infrastructure upgrades including social sign-in, payment processors, and easy to navigate developer tools, WORBLI makes building your application seamless from start to finish. Intuitive UX & UI, Optimized for Simplicity.
 
 #### Recoverable accounts
 
@@ -31,9 +31,9 @@ WORBLI has network managed resources allowing users to recover lost accounts eas
 
 At WORBLI, we feel like blockchain governance should make sense. Disputes are handled within the system ensuring both applications and customers feel safe and secure with all the rights they would have outside of the blockchain world.
 
-#### Access to existing AML partners for picture perfect compliance
+#### Access to existing AML partners for picture-perfect compliance
 
-For apps that wish to use it, WORBLI has vetted partners who provide preferred pricing for ongoing AML and transactional monitoring as required by FIncen and the FATF guidelines.
+For apps that wish to use it, WORBLI has vetted partners who provide preferred pricing for ongoing AML and transactional monitoring as required by FinCEN and the FATF guidelines.
 
 #### Compliance at the token level
 
