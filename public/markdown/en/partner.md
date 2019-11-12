@@ -1,5 +1,5 @@
 ## Partner with us
-### Subtitle
+### We are always on a mission to find passionate partners who share our WORBLI values. We actively seek out the best applications, technical teams, infrastructure, and technology.
 
 ![page image](../images/partner.jpg)
 
