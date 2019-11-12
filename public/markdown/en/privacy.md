@@ -1,5 +1,5 @@
 ## Privacy Policy
-### Subtitle
+### 
 
 ![page image](../images/privacy.jpg)
 
