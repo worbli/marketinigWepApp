@@ -22,7 +22,6 @@ import { BlockProducers } from './pages/quick/blockProducers';
 import { Terms } from './pages/legal/terms';
 import { Privacy } from './pages/legal/privacy';
 import { Accessibility } from './pages/legal/accessibility';
-import { Jurisdiction } from './pages/legal/jurisdiction';
 import { NotFound } from './pages/notfound';
 
 const Router: React.FC = () => {
@@ -57,7 +56,6 @@ const Router: React.FC = () => {
               <Route exact path = '/legal/terms' component = { Terms }/>
               <Route exact path = '/legal/privacy' component = { Privacy }/>
               <Route exact path = '/legal/accessibility' component = { Accessibility }/>
-              <Route exact path = '/legal/jurisdiction' component = { Jurisdiction }/>
               <Route component = { NotFound }/>
             </Switch>
           </Layout>
