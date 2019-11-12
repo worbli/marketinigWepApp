@@ -1,5 +1,5 @@
 ## In the press
-### Subtitle
+### Keep up to date with our latest press releases and exciting news articles
 
 ![page image](../images/press.jpg)
 
