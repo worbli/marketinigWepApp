@@ -30,7 +30,6 @@ const Footer: React.FC = () => {
           <li><Link to={{pathname: '/legal/terms'}}>{txt.termsOfService}</Link></li>
           <li><Link to={{pathname: '/legal/privacy'}}>{txt.privacy}</Link></li>
           <li><Link to={{pathname: '/legal/accessibility'}}>{txt.accessibility}</Link></li>
-          <li><Link to={{pathname: '/legal/jurisdiction'}}>{txt.jurisdiction}</Link></li>
         </ul>
       </div>
       <div>{txt.contact}
