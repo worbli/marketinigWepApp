@@ -1,5 +1,5 @@
 ## Latest updates
-### Subtitle
+### Keep up to date with our latest updates and news
 
 ![page image](../images/updates.jpg)
 
