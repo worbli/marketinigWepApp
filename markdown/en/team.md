@@ -17,7 +17,7 @@ _**Robert DeWilder**_
 _(Current Foundation CTO)_
 [LinkedIn](https://www.linkedin.com/in/robert-dewilder-6b83311/)
 
-Robert Dewilder is a technology leader with 20 years of hands-on experience managing large-scale technical infrastructure and application development. Robert’s most recent role as Director, Global Information Technology at Sony Music where he’s responsible for systems architecture, engineering, and cloud infrastructure. Robert attended the University of Southern California where he completed a degree in Computer Science.
+Robert Dewilder is a technology leader with 20 years of hands-on experience in managing large-scale technical infrastructure and application development. Robert’s most recent role as Director, Global Information Technology at Sony Music where he’s responsible for systems architecture, engineering, and cloud infrastructure. Robert attended the University of Southern California where he completed a degree in Computer Science.
 
 _**Sam Russell**_
 _(Former EVP Marketing & Innovation)_
@@ -43,7 +43,7 @@ Sean started out as a graphic designer and photographer over 25 years ago but qu
 _**William Hill**_
 _(Development Team)_
 
-Will is not just a developer with over two decades of experience, he is also a successful entrepreneur. Will has extensive product development and technical management skills which have helped him tremendously as a team leader. When it comes to developing technology Will is a full stack Polyglot and programming linguist.
+Will is not just a developer with over two decades of experience, he is also a successful entrepreneur. Will has extensive product development and technical management skills which have helped him tremendously as a team leader. When it comes to developing technology Will is a full-stack Polyglot and programming linguist.
 
 _**Valentin Ivanov**_
 _(Development Team)_
@@ -55,19 +55,19 @@ _(Operations Director and Business Development)_
 [Twitter](https://twitter.com/RicaCrypto)
 [Linked In](https://www.linkedin.com/in/matthew-haynes-93a9797b/)
 
-A serial entrepreneur, Matt has been an avid blockchain participant and involved in the EOSIO space prior to the launch of the ecosystem. Matt held a previous position as Co-Founder and COO of a social media blockchain startup helping to bring the application to 20,000 active users within six months of the launch prior to joining the WORBLI team full time. Matt also works as a full time member of the business development team and has a strong interest and passion for compliance coming from an operational and risk assessment background with some of the largest Oil and Gas companies in the world.
+A serial entrepreneur, Matt has been an avid blockchain participant and involved in the EOSIO space prior to the launch of the ecosystem. Matt held a previous position as Co-Founder and COO of a social media blockchain startup helping to bring the application to 20,000 active users within six months of the launch prior to joining the WORBLI team full-time. Matt also works as a full time member of the business development team and has a strong interest and passion for compliance coming from an operational and risk assessment background with some of the largest Oil and Gas companies in the world.
 
 _**Martin Cooper**_
 _(Operations)_
 
-Martin has over ten years of management and marketing experience in the food & beverage industry which he left to join the blockchain industry. He received his MCP and started mining Litecoin in 2014. He then became a full-time Crypto trader early 2017. Martin has worked with EOS projects such as Trybe, Karma & Gyfite and held positions investigating fraudulent activity on EOS and within Dapps. He also became an Editor and Support for projects within EOSIO.
+Martin has over ten years of management and marketing experience in the food & beverage industry which he left to join the blockchain industry. He received his MCP and started mining Litecoin in 2014. He then became a full-time Crypto trader in early 2017. Martin has worked with EOS projects such as Trybe, Karma & Gyfite and held positions investigating fraudulent activity on EOS and within Dapps. He also became an Editor and Support for projects within EOSIO.
 
  
 _**Mitchell Mahaffey**_
 _(Partnerships Manager)_
 [Linked In](https://www.linkedin.com/in/mitchell-mahaffey/)
 
-Mitchell Mahaffey is a blockchain enthusiast and content creator with several years of experience in researching, writing and contributing in the distributed ledger community. Mitchell is the founder of Speak Crypto, a platform offering free courses, content and consulting which has been used as a critical resource for many individuals and start-ups looking to enter the space.
+Mitchell Mahaffey is a blockchain enthusiast and content creator with several years of experience in researching, writing and contributing to the distributed ledger community. Mitchell is the founder of Speak Crypto, a platform offering free courses, content and consulting which has been used as a critical resource for many individuals and start-ups looking to enter the space.
 
 _**Tom Bicknell**_
 _(Fintech Legal Advisor)_
@@ -80,8 +80,8 @@ Tom Bicknell is a partner at Pinsent Masons, a leading Financial Technology law 
 _**David Packham**_
 _(EOS & Board Advisor)_
 
-David Packham has over 20 years experience in banking, asset management, and FinTech, working for Credit Suisse and Goldman Sachs. He’s the co-founder of EOS42, a top 10 Block Producer on EOSIO mainnet. David has an MSc from City University in London, a Hyperledger Developer and Blockchain Strategy qualification from the University of Oxford. He is also the co-founder of Chintai, a token leasing delegation market dApp for WORBLI and EOSIO.
+David Packham has over 20 years of experience in banking, asset management, and FinTech, working for Credit Suisse and Goldman Sachs. He’s the co-founder of EOS42, a top 10 Block Producer on EOSIO mainnet. David has an MSc from City University in London, a Hyperledger Developer and Blockchain Strategy qualification from the University of Oxford. He is also the co-founder of Chintai, a token leasing delegation market dApp for WORBLI and EOSIO.
 
 _**0rigin**_
 
-The founder of 0rigin, Daryn Soards is an expert in economic modeling, and is relied upon regularly as a strategic consultant. 0rigin is a full-service principal finance business operating in digital assets. Its investments, strategies and products centre around its core belief in the evolution of ultra-low friction, inclusive and democratic pillars that will form the foundations of a new era in finance and commerce. Their team has extensive experience across multiple asset classes and industries. It uses this depth and breadth to optimise financial models, mitigate risk and form strategic partnerships within the digital world. The 0rigin strategy to broaden the capital base of the blockchain asset class forms a core component of the paradigm shift in the global financial architecture.
+The founder of 0rigin, Daryn Soards is an expert in economic modeling and is relied upon regularly as a strategic consultant. 0rigin is a full-service principal finance business operating in digital assets. Its investments, strategies and products center around its core belief in the evolution of ultra-low friction, inclusive and democratic pillars that will form the foundations of a new era in finance and commerce. Their team has extensive experience across multiple asset classes and industries. It uses this depth and breadth to optimize financial models, mitigate risk and form strategic partnerships within the digital world. The 0rigin strategy to broaden the capital base of the blockchain asset class forms a core component of the paradigm shift in the global financial architecture.
