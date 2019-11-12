@@ -1,9 +1,7 @@
 ## Team & Advisors
-### Subtitle
+### A wealth of relevant fintech/banking experience, a proven track record in successful ventures, and most importantly, a shared faith in blockchain technology and its transformative benefits
 
 ![page image](../images/team.jpg)
-
-A wealth of relevant fintech/banking experience, a proven track record in successful ventures, and most importantly, a shared faith in blockchain technology and its transformative benefits.
 
 #### Founders
 _**Domenic Thomas**_
