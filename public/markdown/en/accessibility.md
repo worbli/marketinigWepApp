@@ -1,5 +1,5 @@
 ## Accessibility Statement
-### Subtitle
+### 
 
 ![page image](../images/accessibility.jpg)
 
