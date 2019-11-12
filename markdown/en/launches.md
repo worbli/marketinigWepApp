@@ -1,5 +1,5 @@
 ## Application launches
-### Subtitle
+### Take a look at the innovative applications that are currently available to WORBLI users.
 
 ![page image](../images/launches.jpg)
 

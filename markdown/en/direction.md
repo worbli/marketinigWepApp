@@ -1,5 +1,5 @@
 ## Direction / Aim
-### Subtitle
+### WORBLI was born to enable a fair and inclusive world, where everyone can access financial services.
 
 ![image of a bow being pulled back](../images/direction.jpg)
 
@@ -11,6 +11,6 @@ DLT has typically been out of reach for the average person. The need for high te
 
 Simple user accounts, user supplied resources, recoverable account access, and easy integrations with existing technology are necessary to ensure the growth and development of this incredible technology. If it's not better than existing systems, it won't last the test of time.
 
-WORBLI has the infrastructure required to bridge the gap from digital assets to existing financial systems.
+WORBLI has the infrastructure required to bridge the gap from digital assets to existing financial systems whilst enabling Decentralized Finance (DeFi). 
 
-Government regulation is not going away. At the same time, as new rules pop up, we can learn to adapt and pivot. WORBLI makes that pivot easy. WORBLI is creating an accessible and fair DeFi infrastructure for innovators and dreamers.
+Government regulation is not going away. At the same time, as new rules pop up, we can learn to adapt and pivot. WORBLI makes that pivot easy. WORBLI is creating an accessible and fair DeFi infrastructure for innovators, the unbanked, and dreamers.

@@ -1,5 +1,5 @@
 ## Governance
-### Subtitle
+### The WORBLI governance model has been designed with enterprise needs and regulators in mind
 
 ![page image](../images/governance.jpg)
 

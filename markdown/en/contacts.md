@@ -1,6 +1,6 @@
 
 ## Contact Us
-### Subtitle
+### We look forward to hearing from you. Send us a message and we'll respond as soon as we can.
 
 ![page image](../images/contacts.jpg)
 

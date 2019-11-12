@@ -1,5 +1,5 @@
 ## Key Differences
-### Subtitle
+### The WORBLI Network has been optimized to support Decentralized Finance (DeFi), regulatory compliance, and enterprise-grade needs. To achieve this, we've implemented features that are unique and innovative.
 
 ![page image](../images/differences.jpg)
 

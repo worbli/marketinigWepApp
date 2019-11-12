@@ -1,9 +1,9 @@
 ## Foundation
-### Subtitle
+### The WORBLI Foundation is the governing body of the entire ecosystem, maintained by our community, block producers and board members.
 
 ![page image](../images/foundation.jpg)
 
-The WORBLI Foundation is a not for profit organization that is committed to fulfilling our vision through the creation of a vibrant WORBLI community, with the following protocols:
+The not for profit organization is committed to fulfilling our vision through the creation of a vibrant WORBLI community, with the following protocols:
 
 - Project Software will be open-sourced, with some potential patent applications for proprietary technology - all community-owned
  - Decentralized decision-making by the community for all macroeconomic decisions
