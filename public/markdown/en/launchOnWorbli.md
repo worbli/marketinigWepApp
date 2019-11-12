@@ -1,5 +1,5 @@
-## Launch on Worbli
-### We're always on the look out for the next generation of cutting-edge applications to launch with us
+## Launch with us
+### We're always on the look out for the next generation of cutting-edge applications to launch on WORBLI
 
 ![page image](../images/launch.jpg)
 
