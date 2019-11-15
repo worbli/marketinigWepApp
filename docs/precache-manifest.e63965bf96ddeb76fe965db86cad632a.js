@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fdd25fc1626143e2437da0fd2f5a4ae",
+    "revision": "1e64f485a82edd2262e390e80fc9b284",
     "url": "/marketinigWepApp/index.html"
   },
   {
-    "revision": "57b6914925bfd123e933",
+    "revision": "275fde25f8dddff8327e",
     "url": "/marketinigWepApp/static/css/main.83a1e71c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/js/2.9c992bbd.chunk.js"
   },
   {
-    "revision": "57b6914925bfd123e933",
-    "url": "/marketinigWepApp/static/js/main.da7736f5.chunk.js"
+    "revision": "275fde25f8dddff8327e",
+    "url": "/marketinigWepApp/static/js/main.137ffbc5.chunk.js"
   },
   {
     "revision": "a800cf6861802d30e608",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/media/screen-2.a0a82bcd.png"
   },
   {
-    "revision": "61a2f0630869e5ca400b7cae6b366903",
-    "url": "/marketinigWepApp/static/media/screen-3.61a2f063.png"
+    "revision": "f973f486374c4911e494e39f66270055",
+    "url": "/marketinigWepApp/static/media/screen-3.f973f486.png"
   },
   {
     "revision": "9ccd510c01faa2fd7d772f3303c0f56f",
