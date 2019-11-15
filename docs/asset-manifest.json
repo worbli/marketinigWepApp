@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/marketinigWepApp/static/css/main.83a1e71c.chunk.css",
-    "main.js": "/marketinigWepApp/static/js/main.6f1c730e.chunk.js",
-    "main.js.map": "/marketinigWepApp/static/js/main.6f1c730e.chunk.js.map",
+    "main.js": "/marketinigWepApp/static/js/main.da7736f5.chunk.js",
+    "main.js.map": "/marketinigWepApp/static/js/main.da7736f5.chunk.js.map",
     "runtime-main.js": "/marketinigWepApp/static/js/runtime-main.eeec4441.js",
     "runtime-main.js.map": "/marketinigWepApp/static/js/runtime-main.eeec4441.js.map",
     "static/js/2.9c992bbd.chunk.js": "/marketinigWepApp/static/js/2.9c992bbd.chunk.js",
     "static/js/2.9c992bbd.chunk.js.map": "/marketinigWepApp/static/js/2.9c992bbd.chunk.js.map",
     "index.html": "/marketinigWepApp/index.html",
-    "precache-manifest.8db351670e4b6352cf6b2c3c16338a61.js": "/marketinigWepApp/precache-manifest.8db351670e4b6352cf6b2c3c16338a61.js",
+    "precache-manifest.d6d24f2da9a5660556b27161fc7add32.js": "/marketinigWepApp/precache-manifest.d6d24f2da9a5660556b27161fc7add32.js",
     "service-worker.js": "/marketinigWepApp/service-worker.js",
     "static/css/main.83a1e71c.chunk.css.map": "/marketinigWepApp/static/css/main.83a1e71c.chunk.css.map",
     "static/media/index.scss": "/marketinigWepApp/static/media/right-light.f009f6f0.svg",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.eeec4441.js",
     "static/js/2.9c992bbd.chunk.js",
     "static/css/main.83a1e71c.chunk.css",
-    "static/js/main.6f1c730e.chunk.js"
+    "static/js/main.da7736f5.chunk.js"
   ]
 }

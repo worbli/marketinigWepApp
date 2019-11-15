@@ -26,7 +26,7 @@ const Carousel: React.FC = () => {
         showImage: images[currentIndex],
         startSlide: currentIndex
       });
-    }, 5000);
+    }, 7000);
   }, [state, setState]);
 
   return (
