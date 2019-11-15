@@ -32,13 +32,16 @@ input:focus, textarea:focus, select:focus {
 html, body, #shell {
   background: $isabelline;
   color: $charcoal;
-  overflow-y: scroll;
+  overflow-y: hidden;
   cursor: default;
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
   font-family: $base-font;
   display: block;
   height: 100%;
+}
+#shell {
+  overflow-y: scroll;
 }
 
 
