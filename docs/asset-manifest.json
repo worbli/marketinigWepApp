@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/marketinigWepApp/static/css/main.2ca7108f.chunk.css",
-    "main.js": "/marketinigWepApp/static/js/main.8258a8ac.chunk.js",
-    "main.js.map": "/marketinigWepApp/static/js/main.8258a8ac.chunk.js.map",
+    "main.css": "/marketinigWepApp/static/css/main.83a1e71c.chunk.css",
+    "main.js": "/marketinigWepApp/static/js/main.6f1c730e.chunk.js",
+    "main.js.map": "/marketinigWepApp/static/js/main.6f1c730e.chunk.js.map",
     "runtime-main.js": "/marketinigWepApp/static/js/runtime-main.eeec4441.js",
     "runtime-main.js.map": "/marketinigWepApp/static/js/runtime-main.eeec4441.js.map",
-    "static/js/2.90c5bb0b.chunk.js": "/marketinigWepApp/static/js/2.90c5bb0b.chunk.js",
-    "static/js/2.90c5bb0b.chunk.js.map": "/marketinigWepApp/static/js/2.90c5bb0b.chunk.js.map",
+    "static/js/2.9c992bbd.chunk.js": "/marketinigWepApp/static/js/2.9c992bbd.chunk.js",
+    "static/js/2.9c992bbd.chunk.js.map": "/marketinigWepApp/static/js/2.9c992bbd.chunk.js.map",
     "index.html": "/marketinigWepApp/index.html",
-    "precache-manifest.fb6cf7704a156683b3f2b7e520f838db.js": "/marketinigWepApp/precache-manifest.fb6cf7704a156683b3f2b7e520f838db.js",
+    "precache-manifest.8db351670e4b6352cf6b2c3c16338a61.js": "/marketinigWepApp/precache-manifest.8db351670e4b6352cf6b2c3c16338a61.js",
     "service-worker.js": "/marketinigWepApp/service-worker.js",
-    "static/css/main.2ca7108f.chunk.css.map": "/marketinigWepApp/static/css/main.2ca7108f.chunk.css.map",
-    "static/media/index.scss": "/marketinigWepApp/static/media/right-light.f009f6f0.svg"
+    "static/css/main.83a1e71c.chunk.css.map": "/marketinigWepApp/static/css/main.83a1e71c.chunk.css.map",
+    "static/media/index.scss": "/marketinigWepApp/static/media/right-light.f009f6f0.svg",
+    "static/media/screen-1.png": "/marketinigWepApp/static/media/screen-1.88f0df31.png",
+    "static/media/screen-2.png": "/marketinigWepApp/static/media/screen-2.a0a82bcd.png",
+    "static/media/screen-3.png": "/marketinigWepApp/static/media/screen-3.61a2f063.png",
+    "static/media/screen-4.png": "/marketinigWepApp/static/media/screen-4.9ccd510c.png",
+    "static/media/screen-5.png": "/marketinigWepApp/static/media/screen-5.6370607c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eeec4441.js",
-    "static/js/2.90c5bb0b.chunk.js",
-    "static/css/main.2ca7108f.chunk.css",
-    "static/js/main.8258a8ac.chunk.js"
+    "static/js/2.9c992bbd.chunk.js",
+    "static/css/main.83a1e71c.chunk.css",
+    "static/js/main.6f1c730e.chunk.js"
   ]
 }
