@@ -3,7 +3,6 @@
 
 ![page image](../images/team.jpg)
 
-## WORBLI Team
 _**Domenic Thomas**_
 _(Current Foundation CEO)_
 [LinkedIn](https://www.linkedin.com/in/domenic-thomas-5403676/)
