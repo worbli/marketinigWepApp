@@ -1,0 +1,51 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - yarn
+      - node_modules/typescript/bin/tsc
+      - npm rebuild node-sass
+      - echo Done installing
+  build:
+    commands:
+      - echo Starting yarn build...
+      - yarn build
+      - echo Build complete
+  post_build:
+    commands:
+      - echo deploying to S3 bucket 
+      # copy the contents of /build to S3
+      - >
+        aws s3 cp 
+        --cache-control="max-age=0, no-cache, no-store, must-revalidate"
+        --recursive ./build s3://$DEPLOY_BUCKET/ 
+      # set the cache-control headers for service-worker.js to prevent
+      # browser caching
+      - >
+        aws s3 cp  
+        --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
+        ./build/service-worker.js s3://$DEPLOY_BUCKET/
+
+      # set the cache-control headers for index.html to prevent
+      # browser caching
+      - >
+        aws s3 cp  
+        --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
+        ./build/index.html s3://$DEPLOY_BUCKET/
+
+      # invalidate the CloudFront cache for index.html and service-worker.js
+      # to force CloudFront to update its edge locations with the new versions
+      # - >
+      #  aws cloudfront create-invalidation --distribution-id $DISTRIBUTION
+      #  --paths /index.html /service-worker.js
+      - echo S3 deploy complete 
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
