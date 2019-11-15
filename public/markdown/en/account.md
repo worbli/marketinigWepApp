@@ -3,3 +3,4 @@
 
 ![page image](../images/account.jpg)
 
+Visit https://portal.worbli.io/ to begin your account creation process.
