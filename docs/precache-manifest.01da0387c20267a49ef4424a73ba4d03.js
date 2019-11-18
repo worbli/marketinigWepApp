@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1765f64a64d38a114ae2a5a3bf28344f",
+    "revision": "518d794a62c2bc18feeba4b0af7d3cba",
     "url": "/marketinigWepApp/index.html"
   },
   {
-    "revision": "5ac585b62b234793bef4",
+    "revision": "a02a049f35f5757c46ef",
     "url": "/marketinigWepApp/static/css/main.f027ef54.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/js/2.9c992bbd.chunk.js"
   },
   {
-    "revision": "5ac585b62b234793bef4",
-    "url": "/marketinigWepApp/static/js/main.480f8ac7.chunk.js"
+    "revision": "a02a049f35f5757c46ef",
+    "url": "/marketinigWepApp/static/js/main.f7e2e762.chunk.js"
   },
   {
     "revision": "a800cf6861802d30e608",

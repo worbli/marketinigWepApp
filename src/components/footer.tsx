@@ -14,7 +14,6 @@ const Footer: React.FC = () => {
           <li><a href='https://worbli.bloks.io/' target='_blank' rel="noopener noreferrer">{txt.blockExplorer}</a></li>
           <li><a href='https://www.chainrift.com/trading?coinpair=WBI/EOS&' target='_blank' rel="noopener noreferrer">{txt.exchange}</a></li>
           <li><Link to={{pathname: '/quick/report'}}>{txt.reportAVulnrability}</Link></li>
-          <li><Link to={{pathname: '/quick/blockProducuers'}}>{txt.blockProducers}</Link></li>
         </ul>
       </div>
       <div>Follow us
