@@ -61,7 +61,7 @@ const HomeCopy: { [key: string]: TranslationsInterface; } = {
   en: {
     language: 'English',
     getInvolvedTitle: 'Get involved',
-    getInvolvedStrapline: 'WORBLI is eliminating the confusion around Blockchain, Digital Assets, and Cryptocurrencies.',
+    getInvolvedStrapline: 'Help us build a fair and inclusive world through enterprise-grade financial technology.',
     progressTitle: 'Progress',
     progressStrapline: "progress lies not in enhancing what is, but in advancing toward what will be",
     joinCardOneTitle: 'Launch On Worbli',
