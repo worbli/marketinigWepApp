@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "518d794a62c2bc18feeba4b0af7d3cba",
+    "revision": "dda723f310c1ca76260fb87c6395a335",
     "url": "/marketinigWepApp/index.html"
   },
   {
-    "revision": "a02a049f35f5757c46ef",
-    "url": "/marketinigWepApp/static/css/main.f027ef54.chunk.css"
+    "revision": "7107f20991efb6b5aa41",
+    "url": "/marketinigWepApp/static/css/main.d979e71b.chunk.css"
   },
   {
     "revision": "b2c8f024e3792fca4d96",
     "url": "/marketinigWepApp/static/js/2.9c992bbd.chunk.js"
   },
   {
-    "revision": "a02a049f35f5757c46ef",
-    "url": "/marketinigWepApp/static/js/main.f7e2e762.chunk.js"
+    "revision": "7107f20991efb6b5aa41",
+    "url": "/marketinigWepApp/static/js/main.4d6b016d.chunk.js"
   },
   {
     "revision": "a800cf6861802d30e608",
@@ -40,23 +40,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/media/right-light.f009f6f0.svg"
   },
   {
-    "revision": "f2a9d235af4f3d1903903cdac1e94585",
-    "url": "/marketinigWepApp/static/media/screen-1.f2a9d235.png"
+    "revision": "8ddf88575f957554fd10fa749f4c2621",
+    "url": "/marketinigWepApp/static/media/screen-1.8ddf8857.webp"
   },
   {
-    "revision": "a3023866bff782d00f81063b05f7d388",
-    "url": "/marketinigWepApp/static/media/screen-2.a3023866.png"
+    "revision": "58a57ee11039c884bdccf1759f8da223",
+    "url": "/marketinigWepApp/static/media/screen-2.58a57ee1.webp"
   },
   {
-    "revision": "492f7960def84a04adca5b99e97fc3da",
-    "url": "/marketinigWepApp/static/media/screen-3.492f7960.png"
+    "revision": "610fa1b30eb05aacaf7b61c20e70ac93",
+    "url": "/marketinigWepApp/static/media/screen-3.610fa1b3.webp"
   },
   {
-    "revision": "2e735b8d67e910a04997fd5f050c8882",
-    "url": "/marketinigWepApp/static/media/screen-4.2e735b8d.png"
+    "revision": "2cf544a9190786670f6157e5431cd319",
+    "url": "/marketinigWepApp/static/media/screen-4.2cf544a9.webp"
   },
   {
-    "revision": "5253ab72229a4bc102d1535a7a08cfee",
-    "url": "/marketinigWepApp/static/media/screen-5.5253ab72.png"
+    "revision": "f9c8c931b3d66d071b5fe8cb7d05a42d",
+    "url": "/marketinigWepApp/static/media/screen-5.f9c8c931.webp"
   }
 ]);

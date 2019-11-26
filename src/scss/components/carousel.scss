@@ -1,13 +1,27 @@
 .carousel {
   height: 500px;
   display: block;
-  margin: 33px 0 45px 0;
-  border-radius: 5px;
+  margin: 0;
   position: relative;
   box-shadow: $level-1;
-  border: 1px solid #cecece;
   filter: brightness(1);
   overflow: hidden;
+
+  &--slider {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &--text-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 550px;
+    padding: 0 12px;
+  }
+  &--dark {
+    color: #303743
+  }
 
   .left-button {
     display: none;
