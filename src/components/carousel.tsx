@@ -20,6 +20,11 @@ const Carousel: React.FC = () => {
     index: 0
   });
 
+  const images = [image1, image2, image3, image4, image5];
+  images.forEach((image) => {
+      new Image().src = image
+  });
+
   const sliderStyle = {
     backgroundImage: "url(" + state.showImage + ")"
   };
