@@ -132,10 +132,10 @@ const Carousel: React.FC = () => {
   return (
     <div className="carousel">
       <div className="carousel--decrement" onClick={decrement}>
-        <img src={leftChevron} className="carousel--leftChevron" />
+        <img src={leftChevron} className="carousel--leftChevron" alt="left" />
       </div>
       <div className="carousel--increment" onClick={increment}>
-        <img src={rightChevron} className="carousel--rightChevron" />
+        <img src={rightChevron} className="carousel--rightChevron" alt="right" />
       </div>
       <div className="carousel--location">
         <div className="carousel--container">
