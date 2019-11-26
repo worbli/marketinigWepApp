@@ -23,7 +23,7 @@
     left: 24px;
     top: 250px;
     background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -33,13 +33,14 @@
     align-items: center;
     color: #000;
     cursor: pointer;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.03), 0 1px 1px rgba(0, 0, 0, 0.05);
   }
   &--increment {
     position: absolute;
     right: 24px;
     top: 250px;
     background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -49,6 +50,7 @@
     align-items: center;
     color: #000;
     cursor: pointer;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.03), 0 1px 1px rgba(0, 0, 0, 0.05);
   }
 
   &--slider {
