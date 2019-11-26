@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b756f1163394746c961abdcee42e7a2d",
+    "revision": "b7c4ac3644c2173d6e7191d4c54951b8",
     "url": "/marketinigWepApp/index.html"
   },
   {
-    "revision": "cd897409ce7d8d57368a",
+    "revision": "bef5f96e73853a60c44c",
     "url": "/marketinigWepApp/static/css/main.8f40dada.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/js/2.706e26b8.chunk.js"
   },
   {
-    "revision": "cd897409ce7d8d57368a",
-    "url": "/marketinigWepApp/static/js/main.16176cf9.chunk.js"
+    "revision": "bef5f96e73853a60c44c",
+    "url": "/marketinigWepApp/static/js/main.eb472054.chunk.js"
   },
   {
     "revision": "a800cf6861802d30e608",
@@ -56,15 +56,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/media/screen-2.58a57ee1.webp"
   },
   {
-    "revision": "610fa1b30eb05aacaf7b61c20e70ac93",
-    "url": "/marketinigWepApp/static/media/screen-3.610fa1b3.webp"
+    "revision": "feed59ee67b7a13a566ea95997c71bd6",
+    "url": "/marketinigWepApp/static/media/screen-3.feed59ee.webp"
   },
   {
     "revision": "2cf544a9190786670f6157e5431cd319",
     "url": "/marketinigWepApp/static/media/screen-4.2cf544a9.webp"
   },
   {
-    "revision": "f9c8c931b3d66d071b5fe8cb7d05a42d",
-    "url": "/marketinigWepApp/static/media/screen-5.f9c8c931.webp"
+    "revision": "9108c9fb5968e9198b3eb384c5bdafe1",
+    "url": "/marketinigWepApp/static/media/screen-5.9108c9fb.webp"
   }
 ]);

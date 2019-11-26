@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/marketinigWepApp/static/css/main.8f40dada.chunk.css",
-    "main.js": "/marketinigWepApp/static/js/main.16176cf9.chunk.js",
-    "main.js.map": "/marketinigWepApp/static/js/main.16176cf9.chunk.js.map",
+    "main.js": "/marketinigWepApp/static/js/main.eb472054.chunk.js",
+    "main.js.map": "/marketinigWepApp/static/js/main.eb472054.chunk.js.map",
     "runtime-main.js": "/marketinigWepApp/static/js/runtime-main.eeec4441.js",
     "runtime-main.js.map": "/marketinigWepApp/static/js/runtime-main.eeec4441.js.map",
     "static/js/2.706e26b8.chunk.js": "/marketinigWepApp/static/js/2.706e26b8.chunk.js",
     "static/js/2.706e26b8.chunk.js.map": "/marketinigWepApp/static/js/2.706e26b8.chunk.js.map",
     "index.html": "/marketinigWepApp/index.html",
-    "precache-manifest.b10876eddea2e28aa879949cc79f13e6.js": "/marketinigWepApp/precache-manifest.b10876eddea2e28aa879949cc79f13e6.js",
+    "precache-manifest.689a093322d6ef97b879542f1c27ca2c.js": "/marketinigWepApp/precache-manifest.689a093322d6ef97b879542f1c27ca2c.js",
     "service-worker.js": "/marketinigWepApp/service-worker.js",
     "static/css/main.8f40dada.chunk.css.map": "/marketinigWepApp/static/css/main.8f40dada.chunk.css.map",
     "static/media/black-chevron-left.svg": "/marketinigWepApp/static/media/black-chevron-left.a67c7548.svg",
@@ -16,14 +16,14 @@
     "static/media/index.scss": "/marketinigWepApp/static/media/right-light.f009f6f0.svg",
     "static/media/screen-1.webp": "/marketinigWepApp/static/media/screen-1.8ddf8857.webp",
     "static/media/screen-2.webp": "/marketinigWepApp/static/media/screen-2.58a57ee1.webp",
-    "static/media/screen-3.webp": "/marketinigWepApp/static/media/screen-3.610fa1b3.webp",
+    "static/media/screen-3.webp": "/marketinigWepApp/static/media/screen-3.feed59ee.webp",
     "static/media/screen-4.webp": "/marketinigWepApp/static/media/screen-4.2cf544a9.webp",
-    "static/media/screen-5.webp": "/marketinigWepApp/static/media/screen-5.f9c8c931.webp"
+    "static/media/screen-5.webp": "/marketinigWepApp/static/media/screen-5.9108c9fb.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.eeec4441.js",
     "static/js/2.706e26b8.chunk.js",
     "static/css/main.8f40dada.chunk.css",
-    "static/js/main.16176cf9.chunk.js"
+    "static/js/main.eb472054.chunk.js"
   ]
 }
