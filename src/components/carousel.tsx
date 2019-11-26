@@ -26,9 +26,7 @@ const Carousel: React.FC = () => {
       return (
         <div className="carousel--text-container carousel--dark">
           <h2>Enterprise Grade</h2>
-          <h3>
-            financially compliant blockchain
-          </h3>
+          <h3>financially compliant blockchain</h3>
         </div>
       );
     }
@@ -68,11 +66,21 @@ const Carousel: React.FC = () => {
     }
   };
 
+  const chipStyle = (index: number, position: number) => {
+    const chipOn = {
+      backgroundColor: "rgba(255,255,255, 1)"
+    };
+    const chipOff = {
+      backgroundColor: "rgba(255,255,255, 0.5)"
+    };
+    if (index === position) return chipOn;
+    else return chipOff;
+  };
   useEffect(() => {
     const images = [image1, image2, image3, image4, image5];
     let currentIndex = state.startSlide;
     if (currentIndex < 4) currentIndex++;
-    else currentIndex = 1;
+    else currentIndex = 0;
     setTimeout(() => {
       setState({
         showImage: images[currentIndex],
@@ -84,6 +92,30 @@ const Carousel: React.FC = () => {
 
   return (
     <div className="carousel">
+      <div className="carousel--location">
+        <div className="carousel--container">
+          <div
+            className="carousel--location-chip"
+            style={chipStyle(state.index, 0)}
+          ></div>
+          <div
+            className="carousel--location-chip"
+            style={chipStyle(state.index, 1)}
+          ></div>
+          <div
+            className="carousel--location-chip"
+            style={chipStyle(state.index, 2)}
+          ></div>
+          <div
+            className="carousel--location-chip"
+            style={chipStyle(state.index, 3)}
+          ></div>
+          <div
+            className="carousel--location-chip"
+            style={chipStyle(state.index, 4)}
+          ></div>
+        </div>
+      </div>
       <div className="carousel--slider" style={sliderStyle}>
         {getText(state.index)}
       </div>

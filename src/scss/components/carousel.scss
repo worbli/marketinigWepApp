@@ -7,12 +7,34 @@
   filter: brightness(1);
   overflow: hidden;
 
+  &--location-chip {
+    height: 6px;
+    width: 35px;
+    background-color: rgba(255,255,255, 0.35);
+    display: block;
+    border: 1px solid rgba(0,0,0,0.4)
+  }
+  &--location {
+    position: absolute;
+    width: 100%;
+    z-index: 600;
+    bottom: 40px;
+  }
+  &--container {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 6px;
+  }
   &--slider {
     width: 100%;
     height: 550px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: absolute;
   }
   &--text-container {
     max-width: 1150px;
@@ -66,7 +88,6 @@
 @media (prefers-color-scheme: dark) {
   .carousel {
     border: 1px solid #000;
-    filter: brightness(0.7);
     .left-button {
       background-color: $dark-lava;
       background-image: url(../../images/carousel/left-dark.svg);
@@ -87,7 +108,7 @@
 @media (prefers-color-scheme: light) {
   .carousel {
     border: 1px solid #cecece;
-    filter: brightness(1);
+    // filter: brightness(1);
     .left-button {
       background-color: $isabelline;
       background-image: url(../../images/carousel/left-light.svg);
