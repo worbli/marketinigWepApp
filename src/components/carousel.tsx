@@ -57,7 +57,7 @@ const Carousel: React.FC = () => {
       return (
         <div className="carousel--text-container">
           <h2>Always on</h2>
-          <h3>finance never sleep in a global economy</h3>
+          <h3>finance never sleeps in a global economy</h3>
         </div>
       );
     }
@@ -66,7 +66,7 @@ const Carousel: React.FC = () => {
         <div className="carousel--text-container carousel--dark">
           <h2>We got you</h2>
           <h3>
-            our complience infrastructure covers you everywhere you do business
+          our compliance infrastructure covers you everywhere you do business
           </h3>
         </div>
       );
