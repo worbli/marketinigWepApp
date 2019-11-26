@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+
 import image1 from "../images/carousel/screen-1.webp";
 import image2 from "../images/carousel/screen-2.webp";
 import image3 from "../images/carousel/screen-3.webp";
@@ -76,6 +78,8 @@ const Carousel: React.FC = () => {
     if (index === position) return chipOn;
     else return chipOff;
   };
+
+
   useEffect(() => {
     const images = [image1, image2, image3, image4, image5];
     let currentIndex = state.startSlide;
@@ -116,9 +120,17 @@ const Carousel: React.FC = () => {
           ></div>
         </div>
       </div>
+      <TransitionGroup>
+        <CSSTransition
+          key={state.index || ''}
+          timeout={600}
+          classNames='carousel--slider'
+        >
       <div className="carousel--slider" style={sliderStyle}>
         {getText(state.index)}
       </div>
+      </CSSTransition>
+      </TransitionGroup>
     </div>
   );
 };

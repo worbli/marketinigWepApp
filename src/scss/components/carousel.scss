@@ -7,12 +7,29 @@
   filter: brightness(1);
   overflow: hidden;
 
+  &--slider {
+    &-enter {
+      transform: translateX(100vw);
+    }
+    &-enter-active {
+      transform: translateX(0);
+      transition: transform 600ms ease-in;
+    }
+    &-exit {
+      transform: translateX(0);
+    }
+    &-exit-active {
+      transform: translateX(-100vw);
+      transition: transform 600ms ease-in;
+    }
+  }
+
   &--location-chip {
     height: 6px;
     width: 35px;
-    background-color: rgba(255,255,255, 0.35);
+    background-color: rgba(255, 255, 255, 0.35);
     display: block;
-    border: 1px solid rgba(0,0,0,0.4)
+    border: 1px solid rgba(0, 0, 0, 0.4);
   }
   &--location {
     position: absolute;
@@ -43,7 +60,7 @@
     padding: 0 12px;
   }
   &--dark {
-    color: #303743
+    color: #303743;
   }
 
   .left-button {
