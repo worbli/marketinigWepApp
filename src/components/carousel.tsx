@@ -6,6 +6,8 @@ import image2 from "../images/carousel/screen-2.webp";
 import image3 from "../images/carousel/screen-3.webp";
 import image4 from "../images/carousel/screen-4.webp";
 import image5 from "../images/carousel/screen-5.webp";
+import leftChevron from "../images/black-chevron-left.svg";
+import rightChevron from "../images/black-chevron-right.svg";
 
 const Carousel: React.FC = () => {
   interface StateInterface {
@@ -84,13 +86,41 @@ const Carousel: React.FC = () => {
     else return chipOff;
   };
 
+  let myTimer: NodeJS.Timeout;
+
+  const increment = () => {
+    clearTimeout(myTimer);
+    let currentIndex = state.startSlide;
+    if (currentIndex < 4) currentIndex++;
+    else currentIndex = 0;
+    setState({
+      ...state,
+      showImage: images[currentIndex],
+      startSlide: currentIndex,
+      index: currentIndex,
+    });
+  }
+
+  const decrement = () => {
+    clearTimeout(myTimer);
+    let currentIndex = state.startSlide;
+    if (currentIndex === 0) currentIndex = 4;
+    else currentIndex = currentIndex-1;
+    setState({
+      ...state,
+      showImage: images[currentIndex],
+      startSlide: currentIndex,
+      index: currentIndex,
+    });
+  }
+
 
   useEffect(() => {
     const images = [image1, image2, image3, image4, image5];
     let currentIndex = state.startSlide;
     if (currentIndex < 4) currentIndex++;
     else currentIndex = 0;
-    setTimeout(() => {
+    myTimer = setTimeout(() => {
       setState({
         showImage: images[currentIndex],
         startSlide: currentIndex,
@@ -101,6 +131,12 @@ const Carousel: React.FC = () => {
 
   return (
     <div className="carousel">
+      <div className="carousel--decrement" onClick={decrement}>
+        <img src={leftChevron} className="carousel--leftChevron" />
+      </div>
+      <div className="carousel--increment" onClick={increment}>
+        <img src={rightChevron} className="carousel--rightChevron" />
+      </div>
       <div className="carousel--location">
         <div className="carousel--container">
           <div

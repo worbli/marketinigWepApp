@@ -7,6 +7,46 @@
   filter: brightness(1);
   overflow: hidden;
 
+  &--leftChevron {
+    position: relative;
+    left: -2px;
+  }
+  &--rightChevron {
+    position: relative;
+    right: -1px;
+  }
+
+  &--decrement {
+    position: absolute;
+    left: 24px;
+    top: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 60;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+  }
+  &--increment {
+    position: absolute;
+    right: 24px;
+    top: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 60;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+  }
+
   &--slider {
     &-enter {
       transform: translateX(100vw);
