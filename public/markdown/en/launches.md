@@ -4,7 +4,7 @@
 ![page image](../images/launches.jpg)
 
 
-#### TokenOro is Live on Worbli
+#### TokenOro is Live on Worbli.
 
 The Gold Storage and Gold Streaming Token is Now Available to Accredited Investors.
 
@@ -15,7 +15,7 @@ The management team of TokenOro spent years raising capital for mining projects 
 [Read more on medium](https://medium.com/@WORBLI/tokenoro-is-live-6aac09d7c10e)
 
  
-#### Bountyblok.io Joins WORBLI
+#### Bountyblok.io Joins WORBLI.
 
 WORBLI is excited to announce a strategic partnership with [bountyblok.io](http://www.bountyblok.io) where an easy-to-use gamification and rewards engine allows everyday businesses to dip their toes into blockchain.
 

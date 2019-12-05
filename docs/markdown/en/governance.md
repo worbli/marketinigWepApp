@@ -17,11 +17,11 @@ WORBLI’s network governance is designed to meet the regulatory needs of global
 - WORBLI will provide account recovery for all users; therefore if private keys are lost - there is a process for the user to recover their account.\n
 - Dispute resolution that is based on law and provides the same security as users would expect in the real world.
 
-#### Decentralization
+#### Decentralization.
 
 WORBLI is the first compliant public blockchain infrastructure. In order to ensure the most efficient system, we will be decentralizing the network to ensure distributed decision making. The first of its kind in a public compliant blockchain.
 
-#### Requirements of Applications
+#### Requirements of Applications.
 
 The WORBLI network is a compliance-focused blockchain. This being said all of our applications must undergo compliance checks to ensure they are safe, legal, and licensed for their perspective use cases by the WORBLI Foundation. This means vetting the team through KYB (know your business) and ensuring adequate security and penetration testing. The network must be safe. It must be compliant. The decentralized WORBLI foundation will be tasked with the effort of ensuring that applications who launch on WORBLI consider the security of the user base.
 

@@ -3,7 +3,7 @@
 
 ![page image](../images/differences.jpg)
 
-#### APIs are custom, agile and managed by our proprietary SLAs (Service Level Agreements). We can cater them to individual enterprise needs
+#### APIs are custom, agile and managed by our proprietary SLAs (Service Level Agreements). We can cater them to individual enterprise needs.
 
 Key Features:
 
@@ -12,7 +12,7 @@ Key Features:
 -   Stable pricing - Committed to driving down deployment cost
 -   RAM, CPU and Bandwidth will get cheaper as time goes on
 
-#### The WORBLI Token Protocol creates rulesets at the token level enabling security and functionality that that would normally have to be built in at the app or chain layers
+#### The WORBLI Token Protocol creates rulesets at the token level enabling security and functionality that that would normally have to be built in at the app or chain layers.
 
 Other features:
 

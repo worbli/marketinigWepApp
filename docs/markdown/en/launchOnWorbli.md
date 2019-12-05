@@ -7,35 +7,35 @@ WORBLI provides fertile ground for applications to be able to develop, innovate 
 
 WORBLI has a number of unique value propositions for developers. We are enabling the opportunity for expansion and growth
 
-#### Free user account creation
+#### Free user account creation.
 
 We take the guesswork and additional costs out of ensuring legitimate verified users through our easy to follow portal interface.
 
-#### Lightning-fast transaction speeds with unlimited scalability
+#### Lightning-fast transaction speeds with unlimited scalability.
 
 Zero congestion, zero frictional lag. We use superior technology to ensure your customers have the best user experience.
 
-#### Stable resource pricing
+#### Stable resource pricing.
 
 Developers building on Distributed Ledger Technology need to know their costs. Stable resource pricing takes the guess work out of knowing your bottom line. WORBLI's resource model ensures that people can operate freely within the ecosystem without having to pay additional fees just to send transactions or interact with your application.
 
-#### Infrastructure to bridge the gap
+#### Infrastructure to bridge the gap.
 
 With a vast array of infrastructure upgrades including social sign-in, payment processors, and easy to navigate developer tools, WORBLI makes building your application seamless from start to finish. Intuitive UX & UI, Optimized for Simplicity.
 
-#### Recoverable accounts
+#### Recoverable accounts.
 
 WORBLI has network managed resources allowing users to recover lost accounts easily via our customer service infrastructure.
 
-#### Dispute Resolution
+#### Dispute Resolution.
 
 At WORBLI, we feel like blockchain governance should make sense. Disputes are handled within the system ensuring both applications and customers feel safe and secure with all the rights they would have outside of the blockchain world.
 
-#### Access to existing AML partners for picture-perfect compliance
+#### Access to existing AML partners for picture-perfect compliance.
 
 For apps that wish to use it, WORBLI has vetted partners who provide preferred pricing for ongoing AML and transactional monitoring as required by FinCEN and the FATF guidelines.
 
-#### Compliance at the token level
+#### Compliance at the token level.
 
 Do you have a product that is only available to accredited investors? Do you want to launch an STO or a token that is only available in certain locations? WORBLI has you covered with unique token registries allowing the most stringent of processes to be built right into the token itself.
 
