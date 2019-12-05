@@ -22,7 +22,7 @@ Other features:
 -   Password authenticated or a private communication network
 -   Stable network support (Not just Telegram or Github)
 -   Coordinated tech. stacks between BPs
--   Individual accounts and customers wallets cannot be hacked or altered.
+-   Individual accounts and customers wallets cannot be hacked or altered
 
 #### WORBLI’s network governance is designed to meet the regulatory needs of global financial services and financial technology businesses.
 
@@ -30,7 +30,7 @@ Benefits are:
 
 -   Geolocated Tokens
 -   Community-based currencies
--   Geolocated human aid and charities.
+-   Geolocated human aid and charities
 -   Accredited investor tokens that can only be traded between accredited investors
 -   Tokens that can be transferred a limited number of times
 -   Voting tokens within a specified area
@@ -43,9 +43,9 @@ Benefits are:
 
 Benefits are:
 
--   Free Verified Accounts for individual users.
--   WORBLI will provide account recovery for all users; therefore if private keys are lost - there is a process for the user to recover their account.
--   Staking for account creation executed by Application. 316 WBI per account.
+-   Free Verified Accounts for individual users
+-   WORBLI will provide account recovery for all users; therefore if private keys are lost - there is a process for the user to recover their account
+-   Staking for account creation executed by Application. 316 WBI per account
 -   Single sign on - Universal login Plus KYC
--   Intuitive UX & UI, Optimized for Simplicity.
+-   Intuitive UX & UI, Optimized for Simplicity
 -   The WORBLI Application Store. All users will have access to a family of applications that are being created on the WORBLI Blockchain

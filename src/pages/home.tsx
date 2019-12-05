@@ -73,7 +73,7 @@ const Home: React.FC = () => {
           <div className="three-column-grid">
             <div className="floating-card">
               <h4 className="item-title">{cpy.progressCardOneTitle}</h4>
-              <p>{cpy.progressCardOneIntro}</p>
+              <p>{cpy.progressCardOneIntro}<br/></p>
               <Link to={{ pathname: "/progress/updates" }}>
                 <button className="left blue">Latest updates</button>
               </Link>

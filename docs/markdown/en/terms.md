@@ -1,5 +1,5 @@
 ## Terms
-### WORBLI terms and conditions 
+### Terms and conditions.
 
 ![page image](../images/terms.jpg)
 

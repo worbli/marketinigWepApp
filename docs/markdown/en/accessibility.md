@@ -1,4 +1,4 @@
-## Accessibility Statement
+## Accessibility statement
 ### 
 
 ![page image](../images/accessibility.jpg)

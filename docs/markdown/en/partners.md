@@ -1,6 +1,6 @@
 
 ## Our Partners
-### Our list of international partners who are helping to ensure the success of our ecosystem
+### Our list of international partners who are helping to ensure the success of our ecosystem.
 
 ![page image](../images/partners.jpg)
 

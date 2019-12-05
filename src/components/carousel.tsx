@@ -34,8 +34,8 @@ const Carousel: React.FC = () => {
     if (index === 0) {
       return (
         <div className="carousel--text-container carousel--dark">
-          <h2>Enterprise Grade</h2>
-          <h3>financially compliant blockchain</h3>
+          <h2>Enterprise grade</h2>
+          <h3>financially compliant blockchain.</h3>
         </div>
       );
     }
@@ -43,7 +43,7 @@ const Carousel: React.FC = () => {
       return (
         <div className="carousel--text-container">
           <h2>A new dawn</h2>
-          <h3>where traditional finance and emerging fintech collaborate</h3>
+          <h3>where traditional finance and emerging fin-tech collaborate.</h3>
         </div>
       );
     }
@@ -51,7 +51,7 @@ const Carousel: React.FC = () => {
       return (
         <div className="carousel--text-container carousel--dark">
           <h2>Everyone is welcome</h2>
-          <h3>making financial inclusion a reality</h3>
+          <h3>making financial inclusion a reality.</h3>
         </div>
       );
     }
@@ -59,7 +59,7 @@ const Carousel: React.FC = () => {
       return (
         <div className="carousel--text-container">
           <h2>Always on</h2>
-          <h3>finance never sleeps in a global economy</h3>
+          <h3>finance never sleeps in a global economy.</h3>
         </div>
       );
     }
@@ -68,7 +68,7 @@ const Carousel: React.FC = () => {
         <div className="carousel--text-container carousel--dark">
           <h2>We got you</h2>
           <h3>
-          our compliance infrastructure covers you everywhere you do business
+          our compliance infrastructure covers you everywhere you do business.
           </h3>
         </div>
       );
