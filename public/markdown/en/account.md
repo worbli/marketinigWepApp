@@ -5,7 +5,7 @@
 
 Opening a WORBLI account grants you access to our entire ecosystem of compliant applications, network resources and AML/KYC verification. 
 
-Learn how to start you journey here
+Learn how to start you journey here:
 
 [![](http://img.youtube.com/vi/dEyy3p4rqWo/0.jpg)](http://www.youtube.com/watch?v=dEyy3p4rqWo "")
 

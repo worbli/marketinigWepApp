@@ -1,4 +1,4 @@
-## Technical Updates
+## Technical updates
 ### Learn more about the technical specifications of the WORBLI network and chain.
 
 ![page image](../images/technical.jpg)
