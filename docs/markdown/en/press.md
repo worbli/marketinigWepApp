@@ -1,5 +1,6 @@
 ## In the press
-### Keep up to date with our latest press releases and exciting news articles.
+### Keep up to date with our latest press releases and exciting news articles
+
 ![page image](../images/press.jpg)
 
 

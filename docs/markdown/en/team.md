@@ -1,5 +1,5 @@
 ## Team & Advisors
-### A wealth of relevant fintech/banking experience, a proven track record in successful ventures, and most importantly, a shared faith in blockchain technology and its transformative benefits.
+### A wealth of relevant fintech/banking experience, a proven track record in successful ventures, and most importantly, a shared faith in blockchain technology and its transformative benefits
 
 ![page image](../images/team.jpg)
 
