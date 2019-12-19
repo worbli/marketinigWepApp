@@ -7,6 +7,21 @@ const Footer: React.FC = () => {
       <div>
         Quick links
         <ul className="link">
+
+
+        
+        <li>
+            <a
+              href="https://testnet.worbli.axonibyte.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Testnet Portal
+            </a>
+          </li>
+
+
+
           <li>
             <a
               href="https://worbli.bloks.io/"
