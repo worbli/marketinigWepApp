@@ -1,12 +1,7 @@
-import React, { useContext } from "react";
-import { Context } from "../components/context";
-import { Translations } from "../localization/dictionary";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
-  const { global } = useContext(Context) as { global: any };
-  const txt = Translations[global.language];
-
   const dropDownAbout = React.useRef<HTMLDivElement>(null);
   const dropDownGetInvolved = React.useRef<HTMLDivElement>(null);
   const dropDownProgress = React.useRef<HTMLDivElement>(null);
@@ -67,7 +62,7 @@ const Header: React.FC = () => {
   return (
     <div className="header max-width">
       <Link to={{ pathname: "/" }}>
-        <h1>{txt.siteName}</h1>
+        <h1>WORBLI</h1>
       </Link>
       <div></div>
       <div className="top-nav">
@@ -76,16 +71,16 @@ const Header: React.FC = () => {
           onClick={openAbout}
           id="dropdown-button"
         >
-          {txt.about}
+          About
           <span className="dropdown" ref={dropDownAbout}>
             <Link to={{ pathname: "/about/direction" }}>
-              {txt.directionAim}
+            Direction
             </Link>
             <Link to={{ pathname: "/about/differences" }}>
-              {txt.keyDifferences}
+            Key differences?
             </Link>
             <Link to={{ pathname: "/about/governance" }}>
-              {txt.governanceComplience}
+            Governance
             </Link>
           </span>
         </div>
@@ -95,16 +90,16 @@ const Header: React.FC = () => {
           onClick={openGetInvolved}
           id="dropdown-button"
         >
-          {txt.getInvolved}
+          Get involved
           <span className="dropdown" ref={dropDownGetInvolved}>
             <Link to={{ pathname: "/getInvolved/launch" }}>
-              {txt.launchOnWorbli}
+            Launch with us
             </Link>
             <Link to={{ pathname: "/getInvolved/partner" }}>
-              {txt.partnerWithUs}
+            Partner with us
             </Link>
             <Link to={{ pathname: "/getInvolved/account" }}>
-              {txt.openAnAccount}
+            Open an account
             </Link>
           </span>
         </div>
@@ -117,13 +112,13 @@ const Header: React.FC = () => {
           Progress
           <span className="dropdown" ref={dropDownProgress}>
             <Link to={{ pathname: "/progress/updates" }}>
-              {txt.latestUpdates}
+            Latest updates
             </Link>
             <Link to={{ pathname: "/progress/launches" }}>
-              {txt.applicationLaunches}
+            Application launches
             </Link>
             <Link to={{ pathname: "/progress/technical" }}>
-              {txt.technicalUpdates}
+            Technical updates
             </Link>
           </span>
         </div>
@@ -133,13 +128,13 @@ const Header: React.FC = () => {
           onClick={openWhoWeAre}
           id="dropdown-button"
         >
-          {txt.whoWeAre}
+          Who we are
           <span className="dropdown" ref={dropDownWhoWeAre}>
-            <Link to={{ pathname: "/our/team" }}>{txt.theTeam}</Link>
-            <Link to={{ pathname: "/our/foundation" }}>{txt.foundation}</Link>
-            <Link to={{ pathname: "/our/partners" }}>{txt.ourPartners}</Link>
-            <Link to={{ pathname: "/our/press" }}>{txt.pressReleases}</Link>
-            <Link to={{ pathname: "/our/contacts" }}>{txt.contactUs}</Link>
+            <Link to={{ pathname: "/our/team" }}>The team</Link>
+            <Link to={{ pathname: "/our/foundation" }}>Foundation</Link>
+            <Link to={{ pathname: "/our/partners" }}>Our partners</Link>
+            <Link to={{ pathname: "/our/press" }}>Press releases</Link>
+            <Link to={{ pathname: "/our/contacts" }}>Contact us</Link>
           </span>
         </div>
         <span className="header--login">

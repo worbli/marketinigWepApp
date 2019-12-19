@@ -42,16 +42,16 @@ const Carousel: React.FC = () => {
     if (index === 1) {
       return (
         <div className="carousel--text-container">
-          <h2>A new dawn</h2>
-          <h3>where traditional finance and emerging fin-tech collaborate.</h3>
+          <h2>Launch your STO</h2>
+          <h3>a fully compliant launchpad for security tokens.</h3>
         </div>
       );
     }
     if (index === 2) {
       return (
         <div className="carousel--text-container carousel--dark">
-          <h2>Everyone is welcome</h2>
-          <h3>making financial inclusion a reality.</h3>
+          <h2>Baked right in</h2>
+          <h3>full compliance at the token layer.</h3>
         </div>
       );
     }

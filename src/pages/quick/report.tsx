@@ -1,27 +1,22 @@
-import React, { useContext, useState, useEffect } from 'react';
-import { Context } from "../../components/context";
-import ReactMarkdown from 'react-markdown';
+import React from "react";
 
 const Report: React.FC = () => {
-  const { global } = useContext(Context) as {global: any};
-  const [state, setState] = useState({src: ''});
-  
-useEffect(() => {
-  const getMarkdown = async () => {
-    const response = await fetch(`https://worbli.github.io/marketinigWepApp/markdown/${global.language}/report.md`);    
-    const src = await response.text();
-    if (state.src === '') setState({ ...state, src});
-  }
-  getMarkdown();
-}, [global.language, state]);
+  return (
+    <div className="max-width">
+      <span className="body">
+        <h2 id="reportanissue">Report an issue</h2>
 
-  return (    
-      <div className='max-width'>
-          <span className='body'>
-            <ReactMarkdown source={state.src} />
-          </span>
-      </div>
+        <h3>
+          Help us scope out any issues that you encounter. All reports will be
+          handled safely and anonymously.
+        </h3>
+
+        <p>
+
+        </p>
+      </span>
+    </div>
   );
-}
+};
 
 export { Report };

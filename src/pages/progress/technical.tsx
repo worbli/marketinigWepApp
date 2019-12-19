@@ -1,27 +1,42 @@
-import React, { useContext, useState, useEffect } from 'react';
-import { Context } from "../../components/context";
-import ReactMarkdown from 'react-markdown';
+import React from "react";
+
 
 const Technical: React.FC = () => {
-  const { global } = useContext(Context) as {global: any};
-  const [state, setState] = useState({src: ''});
-  
-useEffect(() => {
-  const getMarkdown = async () => {
-    const response = await fetch(`https://worbli.github.io/marketinigWepApp/markdown/${global.language}/technical.md`);    
-    const src = await response.text();
-    if (state.src === '') setState({ ...state, src});
-  }
-  getMarkdown();
-}, [global.language, state]);
+  return (
+    <div className="max-width">
+      <span className="body">
+        <h2>Technical updates</h2>
 
-  return (    
-      <div className='max-width'>
-          <span className='body'>
-            <ReactMarkdown source={state.src} />
-          </span>
-      </div>
+        <h3>
+          learn about the technical specifications of the worbli network.
+        </h3>
+
+        <p>
+          <img src="../images/technical.jpg" alt="page image" />
+        </p>
+
+        <p>
+          The WORBLI network has been optimized for Decentralized Finance (DeFi)
+          and enterprise-grade services through our innovative resource model.
+          Our Delegated Proof of Utility (DPOU) consensus protocols, inflation
+          algorithms and resource management models ensure the efficient running
+          of our network. Learn more here.
+        </p>
+
+        <p>
+          <a href="https://medium.com/worbli-ecosystem/technical/home">
+            Read more on medium
+          </a>
+        </p>
+
+        <p>
+          The WORBLI network remains up to date with software upgrades that are
+          provided to the EOSIO code via Block.One. Recently the WORBLI network
+          and our Block Producers upgraded to the EOSIO 1.8.1 iteration.
+        </p>
+      </span>
+    </div>
   );
-}
+};
 
 export { Technical };
