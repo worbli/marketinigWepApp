@@ -124,24 +124,6 @@ const Footer: React.FC = () => {
               Support
             </a>
           </li>
-          <li>
-            <a
-              href="mailto:careers@worbli.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Careers
-            </a>
-          </li>
-          <li>
-            <a
-              href="mailto:arbitors@worbli.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Arbitration
-            </a>
-          </li>
         </ul>
       </div>
     </div>

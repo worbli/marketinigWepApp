@@ -19,18 +19,21 @@ const Account: React.FC = () => {
           compliant applications, network resources and AML/KYC verification.{" "}
         </p>
 
+        <p>
+          <a href='https://portal.worbli.io/' target='_blank'>
+          <button className="medium-button">Open a free Worbli acocunt</button>
+          </a> 
+        </p>
+
         <p>Learn how to start you journey here:</p>
 
         <p>
-          <a href="http://www.youtube.com/watch?v=dEyy3p4rqWo">
+          <a href="http://www.youtube.com/watch?v=dEyy3p4rqWo" target='_blank'>
             <img src="http://img.youtube.com/vi/dEyy3p4rqWo/0.jpg" alt="" />
           </a>
         </p>
 
-        <p>
-          Visit <a href='https://portal.worbli.io/' target='_blank'>https://portal.worbli.io/</a> to begin your account creation
-          process.
-        </p>
+
       </span>
     </div>
   );

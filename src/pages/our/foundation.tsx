@@ -19,46 +19,46 @@ const Foundation: React.FC = () => {
           protocols:
         </p>
 
-        <p>
-          Project Software will be open-sourced, with some potential patent
-          applications for proprietary technology - all community-owned
-        </p>
+        <ul>
+          <li>
+            Project Software will be open-sourced, with some potential patent
+            applications for proprietary technology - all community-owned
+          </li>
 
-        <p>
-          Decentralized decision-making by the community for all macroeconomic
-          decisions
-        </p>
+          <li>
+            Decentralized decision-making by the community for all macroeconomic
+            decisions
+          </li>
 
-        <p>
-          Day-to-day operations, marketing, and general project management
-          executed by the WORBLI Foundation team
-        </p>
+          <li>
+            Day-to-day operations, marketing, and general project management
+            executed by the WORBLI Foundation team
+          </li>
 
-        <p>Total financial transparency</p>
+          <li>Total financial transparency</li>
 
-        <p>
-          Board of directors made up of representatives from our Block Producers
-          to start and evolving into a representation of the whole of WORBLI’s
-          stakeholders.
-        </p>
+          <li>
+            Board of directors made up of representatives from our Block
+            Producers to start and evolving into a representation of the whole
+            of WORBLI’s stakeholders.
+          </li>
 
-        <p>
-          The Board members will be elected annually to continue their service
-          or be replaced by newly elected members through processes in our
-          governance model.
-        </p>
+          <li>
+            The Board members will be elected annually to continue their service
+            or be replaced by newly elected members through processes in our
+            governance model.
+          </li>
+        </ul>
 
         <p>The Board will provide guidance and approval for:</p>
 
-        <p>Contracts and compensation</p>
-
-        <p>Budgets</p>
-
-        <p>Strategic planning</p>
-
-        <p>Strategic Partnerships</p>
-
-        <p>Asset Management</p>
+        <ul>
+          <li>Contracts and compensation</li>
+          <li>Budgets</li>
+          <li>Strategic planning</li>
+          <li>Strategic Partnerships</li>
+          <li>Asset Management</li>
+        </ul>
       </span>
     </div>
   );

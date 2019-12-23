@@ -9,7 +9,9 @@ $subtitle-font: 'Merriweather', serif;
     font-weight: 400;
     padding-top: 100px;
 }
-
+.noPadding {
+     padding: 0 !important;
+}
 .item-title {
     font-family: $title-font;
     font-size: 26px;
@@ -40,9 +42,10 @@ $subtitle-font: 'Merriweather', serif;
     text-transform: lowercase;
 }
 p {
-    line-height: 20px;
+    line-height: 28px;
     margin-right: 12px;
     white-space: pre-line;
+    font-size: 14px;
 }
 
 .body p {
@@ -82,7 +85,23 @@ p {
     }
 }
 
-
+.medium-button {
+    background-color: $bleu-de-france; 
+    width: auto;
+    padding: 0 24px;
+    color: white;
+    border-radius: 5px;
+}
+.link-button {
+    background-color: $bleu-de-france; 
+    width: auto;
+    padding: 0 24px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
 
 .body {
     max-width: 750px;
@@ -116,6 +135,9 @@ p {
     h4 {
         font-size: 18px;
         padding-bottom: 20px;
+        font-weight: 200;
+        margin-top: 60px;
+        color: $bleu-de-france;
     }
 }
 

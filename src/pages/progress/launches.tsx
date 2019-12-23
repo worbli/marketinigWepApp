@@ -6,9 +6,7 @@ const Launches: React.FC = () => {
       <span className="body">
         <h2>Application launches</h2>
 
-        <h3>
-        innovations currently available to Worbli users.
-        </h3>
+        <h3>innovations currently available to Worbli users.</h3>
 
         <p>
           <img src="../images/launches.jpg" alt="page image" />
@@ -41,7 +39,7 @@ const Launches: React.FC = () => {
 
         <p>
           <a href="https://medium.com/worbli-ecosystem/applications/home ">
-            <button name="button">Read more on medium</button>
+            <button className="medium-button">Read more on medium</button>
           </a>
         </p>
 
@@ -70,7 +68,7 @@ const Launches: React.FC = () => {
 
         <p>
           <a href="https://medium.com/worbli-ecosystem/applications/home ">
-            Read more on medium
+            <button className="medium-button">Read more on medium</button>
           </a>
         </p>
       </span>

@@ -65,7 +65,7 @@ const Updates: React.FC = () => {
 
         <p>
           <a href="https://medium.com/worbli-ecosystem/news/home">
-            Read More on Medium
+          <button className="medium-button">Read more on medium</button>
           </a>
         </p>
       </span>

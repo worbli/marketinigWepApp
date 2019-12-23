@@ -25,7 +25,7 @@ const Technical: React.FC = () => {
 
         <p>
           <a href="https://medium.com/worbli-ecosystem/technical/home">
-            Read more on medium
+          <button className="medium-button">Read more on medium</button>
           </a>
         </p>
 

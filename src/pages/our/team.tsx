@@ -18,13 +18,10 @@ const Team: React.FC = () => {
 
         <p>
           <em>
-            <strong>Domenic Thomas</strong>
+            <h4>Domenic Thomas</h4>
           </em>
           <em>(Current Foundation CEO)</em>
-          <a href="https://www.linkedin.com/in/domenic-thomas-5403676/">
-            LinkedIn
-          </a>
-          <a href="https://twitter.com/worbli_ceo">Twitter</a>
+      
         </p>
 
         <p>
@@ -39,15 +36,16 @@ const Team: React.FC = () => {
           been intensely studying finance and regulatory guidelines since early
           2017 in preparation for this project.
         </p>
+        <a href="https://www.linkedin.com/in/domenic-thomas-5403676/">
+          <button className="link-button">LinkedIn</button>
+          </a>
+          <a href="https://twitter.com/worbli_ceo"><button className="link-button">Twitter</button></a>
 
         <p>
           <em>
-            <strong>Robert DeWilder</strong>
+            <h4>Robert DeWilder</h4>
           </em>
           <em>(Current Foundation CTO)</em>
-          <a href="https://www.linkedin.com/in/robert-dewilder-6b83311/">
-            LinkedIn
-          </a>
         </p>
 
         <p>
@@ -59,10 +57,13 @@ const Team: React.FC = () => {
           attended the University of Southern California where he completed a
           degree in Computer Science.
         </p>
+        <a href="https://www.linkedin.com/in/robert-dewilder-6b83311/">
+          <button className="link-button">LinkedIn</button>
+          </a>
 
         <p>
           <em>
-            <strong>David Packham</strong>
+            <h4>David Packham</h4>
           </em>
           <em>(Current Foundation CFO)</em>
         </p>
@@ -79,12 +80,10 @@ const Team: React.FC = () => {
 
         <p>
           <em>
-            <strong>Todor Karaivanov</strong>
+            <h4>Todor Karaivanov</h4>
           </em>
           <em>(Director of Blockchain Governance)</em>
-          <a href="https://www.linkedin.com/in/todor-karaivanov-325468/">
-            LinkedIn
-          </a>
+
         </p>
 
         <p>
@@ -97,13 +96,16 @@ const Team: React.FC = () => {
           EOS-related governance designs, including the Worker Proposal System,
           on which he worked together with Domenic.
         </p>
+        <a href="https://www.linkedin.com/in/todor-karaivanov-325468/">
+          <button className="link-button">LinkedIn</button>
+          </a>
 
         <p>
           <em>
-            <strong>Sean Anderson</strong>
+            <h4>Sean Anderson</h4>
           </em>
           <em>(Director of Business Development)</em>
-          <a href="https://www.linkedin.com/in/seanxanderson/">Linked In</a>
+
         </p>
 
         <p>
@@ -118,10 +120,13 @@ const Team: React.FC = () => {
           messaging and marketing. The efforts of Sean and his team directly led
           to his clients generating millions of dollars in revenue.
         </p>
+        <a href="https://www.linkedin.com/in/seanxanderson/">
+          <button className="link-button">LinkedIn</button>
+          </a>
 
         <p>
           <em>
-            <strong>William Hill</strong>
+            <h4>William Hill</h4>
           </em>
           <em>(Development Team)</em>
         </p>
@@ -136,7 +141,7 @@ const Team: React.FC = () => {
 
         <p>
           <em>
-            <strong>Valentin Ivanov</strong>
+            <h4>Valentin Ivanov</h4>
           </em>
           <em>(Development Team)</em>
         </p>
@@ -153,7 +158,7 @@ const Team: React.FC = () => {
 
         <p>
           <em>
-            <strong>Martin Cooper</strong>
+            <h4>Martin Cooper</h4>
           </em>
           <em>(Operations)</em>
         </p>
@@ -170,10 +175,9 @@ const Team: React.FC = () => {
 
         <p>
           <em>
-            <strong>Mitchell Mahaffey</strong>
+            <h4>Mitchell Mahaffey</h4>
           </em>
           <em>(Partnerships Manager)</em>
-          <a href="https://www.linkedin.com/in/mitchell-mahaffey/">Linked In</a>
         </p>
 
         <p>
@@ -184,15 +188,15 @@ const Team: React.FC = () => {
           has been used as a critical resource for many individuals and
           start-ups looking to enter the space.
         </p>
+        <a href="https://www.linkedin.com/in/mitchell-mahaffey/">
+          <button className="link-button">LinkedIn</button>
+          </a>
 
         <p>
           <em>
-            <strong>Tom Bicknell</strong>
+            <h4>Tom Bicknell</h4>
           </em>
           <em>(Fintech Legal Advisor)</em>
-          <a href="https://www.linkedin.com/in/tom-bicknell-25629b47/">
-            LinkedIn
-          </a>
         </p>
 
         <p>
@@ -200,12 +204,15 @@ const Team: React.FC = () => {
           Technology law firm. Tom is an experienced financial service and
           corporate insurance practitioner based in the Middle East.
         </p>
+        <a href="https://www.linkedin.com/in/tom-bicknell-25629b47/">
+          <button className="link-button">LinkedIn</button>
+          </a>
 
         <h2 id="worbliadvisors">WORBLI Advisors</h2>
 
         <p>
           <em>
-            <strong>0rigin</strong>
+            <h4>0rigin</h4>
           </em>
         </p>
 
