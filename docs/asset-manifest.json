@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/marketinigWepApp/static/css/main.a3f4f87e.chunk.css",
-    "main.js": "/marketinigWepApp/static/js/main.689101d6.chunk.js",
-    "main.js.map": "/marketinigWepApp/static/js/main.689101d6.chunk.js.map",
+    "main.css": "/marketinigWepApp/static/css/main.d4729c3b.chunk.css",
+    "main.js": "/marketinigWepApp/static/js/main.176d1de5.chunk.js",
+    "main.js.map": "/marketinigWepApp/static/js/main.176d1de5.chunk.js.map",
     "runtime-main.js": "/marketinigWepApp/static/js/runtime-main.eeec4441.js",
     "runtime-main.js.map": "/marketinigWepApp/static/js/runtime-main.eeec4441.js.map",
     "static/js/2.d29e89f0.chunk.js": "/marketinigWepApp/static/js/2.d29e89f0.chunk.js",
     "static/js/2.d29e89f0.chunk.js.map": "/marketinigWepApp/static/js/2.d29e89f0.chunk.js.map",
     "index.html": "/marketinigWepApp/index.html",
-    "precache-manifest.80f4e4992b43a5830d80f07a6589c0a3.js": "/marketinigWepApp/precache-manifest.80f4e4992b43a5830d80f07a6589c0a3.js",
+    "precache-manifest.a0ee2dbb36475e1d880bc7f768666f76.js": "/marketinigWepApp/precache-manifest.a0ee2dbb36475e1d880bc7f768666f76.js",
     "service-worker.js": "/marketinigWepApp/service-worker.js",
-    "static/css/main.a3f4f87e.chunk.css.map": "/marketinigWepApp/static/css/main.a3f4f87e.chunk.css.map",
+    "static/css/main.d4729c3b.chunk.css.map": "/marketinigWepApp/static/css/main.d4729c3b.chunk.css.map",
+    "static/media/index.scss": "/marketinigWepApp/static/media/updates.0927f5c4.jpg",
     "static/media/black-chevron-left.svg": "/marketinigWepApp/static/media/black-chevron-left.a67c7548.svg",
     "static/media/black-chevron-right.svg": "/marketinigWepApp/static/media/black-chevron-right.20f3741c.svg",
-    "static/media/index.scss": "/marketinigWepApp/static/media/right-light.f009f6f0.svg",
     "static/media/loading.svg": "/marketinigWepApp/static/media/loading.6a19979e.svg",
     "static/media/screen-1.webp": "/marketinigWepApp/static/media/screen-1.8ddf8857.webp",
-    "static/media/screen-2.webp": "/marketinigWepApp/static/media/screen-2.58a57ee1.webp",
+    "static/media/screen-2.webp": "/marketinigWepApp/static/media/screen-2.5bcd6d68.webp",
     "static/media/screen-3.webp": "/marketinigWepApp/static/media/screen-3.feed59ee.webp",
-    "static/media/screen-4.webp": "/marketinigWepApp/static/media/screen-4.2cf544a9.webp",
-    "static/media/screen-5.webp": "/marketinigWepApp/static/media/screen-5.9108c9fb.webp"
+    "static/media/screen-4.webp": "/marketinigWepApp/static/media/screen-4.f22832c9.webp",
+    "static/media/screen-5.webp": "/marketinigWepApp/static/media/screen-5.2ea3b309.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.eeec4441.js",
     "static/js/2.d29e89f0.chunk.js",
-    "static/css/main.a3f4f87e.chunk.css",
-    "static/js/main.689101d6.chunk.js"
+    "static/css/main.d4729c3b.chunk.css",
+    "static/js/main.176d1de5.chunk.js"
   ]
 }

@@ -57,7 +57,7 @@ const Carousel: React.FC = () => {
     }
     if (index === 3) {
       return (
-        <div className="carousel--text-container">
+        <div className="carousel--text-container carousel--light">
           <h2>Always on</h2>
           <h3>finance never sleeps in a global economy.</h3>
         </div>

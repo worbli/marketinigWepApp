@@ -13,6 +13,7 @@ const Home: React.FC = () => {
         <div className="max-width">
           <h2 className="title">Get involved</h2>
           <h3 className="sub-title">Building a fair and inclusive world through enterprise-grade financial technology.</h3>
+          <br/><br/><br/><br/>
           <div className="three-column-grid">
             <div>
               <img src="./images/launchOnWorbli.jpg" alt="" />
@@ -65,6 +66,7 @@ const Home: React.FC = () => {
         <div className="max-width">
           <h2 className="title">Follow</h2>
           <h3 className="sub-title">our progress as we build, grow and change the world </h3>
+          <br/><br/><br/><br/>
           <div className="three-column-grid">
             <div className="floating-card">
               <h4 className="item-title">Worbli partners with wordproof</h4>

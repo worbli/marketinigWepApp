@@ -18,6 +18,7 @@ const Updates: React.FC = () => {
   }, [global.language, state]);
 
   return (
+    <React.Fragment>
     <div className="max-width">
       <span className="body">
         <h2>Latest updates</h2>
@@ -26,9 +27,13 @@ const Updates: React.FC = () => {
           keep up to date with our latest updates and news.
         </h3>
 
-        <p>
-          <img src="../images/updates.jpg" alt="page image" />
-        </p>
+        </span>
+      </div>
+
+      <div className="image image--updates"> </div>
+
+      <div className="max-width">
+        <span className="body">
 
         <p>
           <strong>EOSIO 1.8.1 Being Deployed on WORBLI</strong>
@@ -70,6 +75,7 @@ const Updates: React.FC = () => {
         </p>
       </span>
     </div>
+    </React.Fragment>
   );
 };
 
