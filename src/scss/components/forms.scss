@@ -40,7 +40,7 @@
     background-color: $bleu-de-france;
     color: white;
   }
-  input[type="text"] {
+  input[type="text"], textarea {
     background-color: $dark-lava;
     border-radius: 5px;
     border: 1px solid $dark-lava;
@@ -52,6 +52,7 @@
     padding: 12px;
     width: 100%;
   }
+
   select {
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -75,6 +76,11 @@
   }
 }
 
+textarea {
+  height: 100px !important;
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   .form {
     background: $medium-jungle-green;
@@ -85,7 +91,7 @@
     &--body {
       border-bottom: 1px solid $dark-lava;
     }
-    input[type="text"] {
+    input[type="text"], textarea {
       background-color: $dark-lava;
       border: 1px solid $dark-lava;
       color: $white;
@@ -110,7 +116,7 @@
     &--body {
       border-bottom: 1px solid $isabelline;
     }
-    input[type="text"] {
+    input[type="text"], textarea {
       background-color: $isabelline;
       border: 1px solid $gainsboro;
       color: $charcoal;

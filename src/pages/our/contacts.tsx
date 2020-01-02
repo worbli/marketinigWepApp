@@ -54,6 +54,15 @@ const Contacts: React.FC = () => {
 
       <div className="max-width">
         <span className="body">
+        <p>
+        We are currently updating our Portal to allow for Business Account creation.
+
+This isn't a pass/fail or a method for gatekeeping. This is a due diligence step designed to protect WORBLI stakeholder interest and ensure we have taken the proper administrative steps for any reporting.
+        </p>
+        <a href='https://docs.google.com/forms/u/2/d/e/1FAIpQLSckfe7r_CMTLVqorA5ck0ykWnk3YpCWlanKjFFJIAZmH-6DXQ/viewform?usp=sf_link' target='_blank' rel="noopener noreferrer">
+          <button className="link-button">Set up a Business Account</button>
+          </a>
+
           {sent && (
             <h4 className="form--title">
               Your enquiry has been sent! We will be in contact soon.
@@ -96,11 +105,9 @@ const Contacts: React.FC = () => {
                     value={email}
                   />
                   <label className="form--label">Enquiry</label>
-                  <input
+                  <textarea
                     name="enquiry"
                     onChange={onChange}
-                    placeholder="How can we help you.."
-                    type="text"
                     value={enquiry}
                   />
                 </div>

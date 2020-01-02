@@ -137,11 +137,9 @@ const Partner: React.FC = () => {
                     value={email}
                   />
                   <label className="form--label">Enquiry</label>
-                  <input
+                  <textarea
                     name="enquiry"
                     onChange={onChange}
-                    placeholder="How can we help you.."
-                    type="text"
                     value={enquiry}
                   />
                 </div>
