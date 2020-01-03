@@ -101,6 +101,9 @@ const Header: React.FC = () => {
             <Link to={{ pathname: "/getInvolved/account" }}>
             Open an account
             </Link>
+            <a href="https://docs.worbli.io/" target='_blank' rel="noopener noreferrer">
+            Technical documentation
+            </a>
           </span>
         </div>
 

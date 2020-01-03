@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
 import { Context } from "../../components/context";
-import ReactMarkdown from "react-markdown";
 
 const Accessibility: React.FC = () => {
   const { global } = useContext(Context) as { global: any };

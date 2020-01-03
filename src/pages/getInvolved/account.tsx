@@ -25,7 +25,7 @@ const Account: React.FC = () => {
           </p>
 
           <p>
-            <a href="https://portal.worbli.io/" target="_blank">
+            <a href="https://portal.worbli.io/" target="_blank" rel="noopener noreferrer">
               <button className="medium-button">
                 Open a free Worbli acocunt
               </button>
@@ -38,6 +38,7 @@ const Account: React.FC = () => {
             <a
               href="http://www.youtube.com/watch?v=dEyy3p4rqWo"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src="http://img.youtube.com/vi/dEyy3p4rqWo/0.jpg" alt="" />
             </a>
