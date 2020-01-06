@@ -1,5 +1,5 @@
 .carousel {
-  height: 500px;
+  height: 370px;
   display: block;
   margin: 0;
   position: relative;
@@ -19,38 +19,10 @@
   }
 
   &--decrement {
-    position: absolute;
-    left: 24px;
-    top: 250px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    z-index: 60;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    color: #000;
-    cursor: pointer;
-    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.03), 0 1px 1px rgba(0, 0, 0, 0.05);
+    display: none;
   }
   &--increment {
-    position: absolute;
-    right: 24px;
-    top: 250px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    z-index: 60;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    color: #000;
-    cursor: pointer;
-    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.03), 0 1px 1px rgba(0, 0, 0, 0.05);
+    display: none;
   }
 
   &--slider {
@@ -148,6 +120,47 @@
     border-top: 1px solid #cecece;
     border-left: 1px solid #cecece;
     border-bottom: 1px solid #cecece;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .carousel {
+    height: 500px;
+
+    &--decrement {
+      position: absolute;
+      left: 24px;
+      top: 250px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      z-index: 60;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      color: #000;
+      cursor: pointer;
+      box-shadow: 0 1px 0px rgba(0, 0, 0, 0.03), 0 1px 1px rgba(0, 0, 0, 0.05);
+    }
+    &--increment {
+      position: absolute;
+      right: 24px;
+      top: 250px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      z-index: 60;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      color: #000;
+      cursor: pointer;
+      box-shadow: 0 1px 0px rgba(0, 0, 0, 0.03), 0 1px 1px rgba(0, 0, 0, 0.05);
+    }
   }
 }
 

@@ -37,7 +37,7 @@
 
 .three-column-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: none;
   grid-gap: 12px;
   padding-bottom: 100px;
 }
@@ -54,6 +54,12 @@
 .body {
   padding-bottom: 100px;
   display: block;
+}
+
+@media only screen and (min-width: 600px) {
+  .three-column-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (prefers-color-scheme: dark) {

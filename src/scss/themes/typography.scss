@@ -5,7 +5,7 @@ $subtitle-font: 'Merriweather', serif;
 
 .title, h2 {
     font-family: $title-font;
-    font-size: 72px;
+    font-size: 52px;
     font-weight: 400;
     padding-top: 100px;
 }
@@ -33,15 +33,15 @@ $subtitle-font: 'Merriweather', serif;
     text-transform: capitalize;
   }
 
-.sub-title, h3{
+.sub-title, h3 {
     font-family: $subtitle-font;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: -0.8px;
     text-transform: lowercase;
 }
 p {
-    line-height: 28px;
+    line-height: 20px;
     margin-right: 12px;
     white-space: pre-line;
     font-size: 14px;
@@ -137,6 +137,18 @@ p {
         font-weight: 400;
         margin-top: 60px;
         color: rgb(0, 85, 176);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .title, h2{
+        font-size: 72px;
+    }
+    .sub-title, h3 {
+        font-size: 22px;
+    }
+    p {
+        line-height: 28px;
     }
 }
 

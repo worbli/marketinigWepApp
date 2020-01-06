@@ -27,7 +27,7 @@
     background-position: center;
   }
   .top-nav {
-    display: grid;
+    display: none;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 12px;
     justify-items: center;
@@ -97,6 +97,15 @@
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .top-nav {
+    display: grid !important;
+  }
+  .top-nav-mobile {
+    display: none !important;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .header {
     h1 {
@@ -130,3 +139,5 @@
     }
   }
 }
+
+

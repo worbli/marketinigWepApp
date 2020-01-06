@@ -1,11 +1,23 @@
 .footer {
-    padding: 48px 0;
+    padding: 48px 12px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
     grid-template-rows: auto;
     grid-gap: 12px;
     font-weight: 500;
+    margin: 12px;
 }
+.footer div {
+    margin-top: 36px;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+}
+
 
 @media (prefers-color-scheme: dark) {
 
