@@ -30,9 +30,6 @@ const Report: React.FC = () => {
       });
   };
 
-  // <HTMLTextAreaElement>
-
-
   const onChange = (
     event: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement

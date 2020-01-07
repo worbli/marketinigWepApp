@@ -1,17 +1,17 @@
 .form {
-  color: $white;
-  background: $dark-lava;
+  color: $charcoal;
+  background: $white;
   border-radius: 5px;
 
   &--title {
-    border-bottom: 1px solid $dark-lava;
+    border-bottom: 1px solid $isabelline;
     font-size: 16px;
     font-weight: 400;
     padding: 17px;
   }
   &--body {
     align-items: stretch;
-    border-bottom: 1px solid $dark-lava;
+    border-bottom: 1px solid $isabelline;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-column-gap: 20px;
@@ -41,10 +41,10 @@
     color: white;
   }
   input[type="text"], textarea {
-    background-color: $dark-lava;
+    background-color: $isabelline;
     border-radius: 5px;
-    border: 1px solid $dark-lava;
-    color: $white;
+    border: 1px solid $gainsboro;
+    color: $charcoal;
     display: block;
     font-weight: 600;
     height: 40px;
@@ -58,12 +58,12 @@
     -webkit-appearance: none;
     -webkit-padding-end: 30px;
     appearance: none;
-    background: url('../../images/chevron-down-light.svg') no-repeat calc(100% - 12px) 50%;
-    background-color: $dark-lava;
+    background: url('../../images/chevron-down-dark.svg') no-repeat calc(100% - 12px) 50%;
+    background-color: $isabelline;
     border-radius: 5px;
-    border: 1px solid $dark-lava;
+    border: 1px solid $gainsboro;
     box-sizing: border-box;
-    color: $white;
+    color: $charcoal;
     font-size: 14px;
     font-weight: 500;
     line-height: 19px;
