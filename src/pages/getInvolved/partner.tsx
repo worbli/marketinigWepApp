@@ -104,7 +104,7 @@ const Partner: React.FC = () => {
           )}
           {!sent && (
             <form onSubmit={onSubmit} className="card form">
-              <h4 className="form--title">Parnership request</h4>
+              <h4 className="form--title">Partnership request</h4>
               <div className="form--body">
                 <div>Application</div>
                 <div className="form--relative">
