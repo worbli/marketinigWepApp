@@ -31,7 +31,7 @@ const Differences: React.FC = () => {
             </li>
 
             <li>
-              Superior infrastructure: Leveraging our own independent EOS
+              Superior infrastructure: Leveraging our own independent EOSIO
               blockchain with features such as built-in developer tools and
               feeless, reversible transactions
             </li>
@@ -67,7 +67,7 @@ const Differences: React.FC = () => {
 
             <li>
               Individual accounts and customers wallets cannot be hacked or
-              altered.
+              altered
             </li>
           </ul>
 
@@ -83,7 +83,7 @@ const Differences: React.FC = () => {
 
             <li>Community-based currencies</li>
 
-            <li>Geolocated human aid and charities.</li>
+            <li>Geolocated human aid and charities</li>
 
             <li>
               Accredited investor tokens that can only be traded between

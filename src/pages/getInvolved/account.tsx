@@ -27,7 +27,7 @@ const Account: React.FC = () => {
           <p>
             <a href="https://portal.worbli.io/" target="_blank" rel="noopener noreferrer">
               <button className="medium-button">
-                Open a free Worbli acocunt
+                Open a free Worbli account
               </button>
             </a>
           </p>
