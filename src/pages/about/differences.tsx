@@ -122,14 +122,7 @@ const Differences: React.FC = () => {
             <li>Free Verified Accounts for individual users</li>
 
             <li>
-              WORBLI will provide account recovery for all users; therefore if
-              private keys are lost - there is a process for the user to recover
-              their account
-            </li>
-
-            <li>
-              Staking for account creation executed by Application. 316 WBI per
-              account
+              WORBLI will provide account recovery for all users
             </li>
 
             <li>Single sign on - Universal login Plus KYC</li>
@@ -137,7 +130,7 @@ const Differences: React.FC = () => {
             <li>Intuitive UX &amp; UI, Optimized for Simplicity</li>
 
             <li>
-              The WORBLI Application Store. All users will have access to a
+              The WORBLI Application Store all users will have access to a
               family of applications that are being created on the WORBLI
               Blockchain
             </li>
