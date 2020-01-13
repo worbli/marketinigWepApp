@@ -16,6 +16,16 @@ const Press: React.FC = () => {
       <div className="max-width">
         <span className="body">
           <p>
+            <a href="https://www.prnewswire.com/news-releases/worbli-partners-with-wordproof-bringing-blockchain-transparency-to-the-world-of-online-content-300904879.html">
+              <h4 className="noPadding">
+                WORBLI Partners With WordProof, Bringing Blockchain Transparency
+                To The World Of Online Content
+              </h4>
+            </a>
+            <p>Aug 21, 2019</p>
+          </p>
+
+          <p>
             <a href="https://www.marketwatch.com/press-release/worbli-partners-with-eos-canada-to-bring-dfuse-to-the-worbli-network-2019-07-25">
               <h4 className="noPadding">
                 WORBLI Partners With EOS Canada to Bring dfuse to the WORBLI
@@ -30,15 +40,6 @@ const Press: React.FC = () => {
               <h4 className="noPadding">WORBLI to Power EDNA</h4>
             </a>
             <p>July 17, 2019</p>
-          </p>
-
-          <p>
-            <a href="https://www.finanzen.net/nachricht/aktien/worbli-partners-with-chainrift-on-first-public-token-sale-6923610">
-              <h4 className="noPadding">
-                WORBLI partners with ChainRift on first Public Token Sale
-              </h4>
-            </a>
-            <p>Dec. 10, 2018</p>
           </p>
 
           <p>
@@ -61,13 +62,12 @@ const Press: React.FC = () => {
           </p>
 
           <p>
-            <a href="https://www.prnewswire.com/news-releases/worbli-partners-with-wordproof-bringing-blockchain-transparency-to-the-world-of-online-content-300904879.html">
+            <a href="https://www.finanzen.net/nachricht/aktien/worbli-partners-with-chainrift-on-first-public-token-sale-6923610">
               <h4 className="noPadding">
-                WORBLI Partners With WordProof, Bringing Blockchain Transparency
-                To The World Of Online Content
+                WORBLI partners with ChainRift on first Public Token Sale
               </h4>
             </a>
-            <p>Aug 21, 2019</p>
+            <p>Dec. 10, 2018</p>
           </p>
         </span>
       </div>

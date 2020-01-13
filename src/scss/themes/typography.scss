@@ -3,6 +3,8 @@ $base-font: "Hanken Grotesk", "Helvetica Neue", sans-serif;
 $title-font: 'Open Sans', sans-serif;
 $subtitle-font: 'Merriweather', serif;
 
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 .title, h2 {
     font-family: $title-font;
     font-size: 52px;
@@ -41,6 +43,7 @@ $subtitle-font: 'Merriweather', serif;
     text-transform: lowercase;
 }
 p {
+    font-family: 'Poppins', sans-serif;
     line-height: 20px;
     margin-right: 12px;
     white-space: pre-line;
@@ -48,6 +51,7 @@ p {
 }
 
 .body p {
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 24px;
     max-width:750px;
 }
@@ -60,6 +64,7 @@ p {
     margin-top: 24px;
     font-weight: 400;
     li {
+        font-family: 'Poppins', sans-serif;
         text-indent: 18px;
         line-height: 24px;
         cursor: pointer;
@@ -109,6 +114,7 @@ p {
     ul {
         padding-top: 12px;
         padding-bottom: 42px;
+        font-family: 'Poppins', sans-serif;
         li {
             transform: translateX(25px);
             padding-top: 12px;

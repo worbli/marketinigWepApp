@@ -17,7 +17,7 @@ const Governance: React.FC = () => {
         <span className="body">
           <p>
             A critical trait is a built-in governance layer. For WORBLI, That
-            means we can set the rules of the blockchain in the foundation
+            means we can set the rules of the blockchain in the foundation.
           </p>
 
           <ul>
@@ -39,7 +39,7 @@ const Governance: React.FC = () => {
             <li>
               This makes WORBLI perfect for any developer that wants to create
               an application where financial security and scalability are
-              paramount.
+              paramount
             </li>
 
             <li>All this with zero cost to applications</li>
