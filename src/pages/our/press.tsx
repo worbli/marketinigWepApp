@@ -11,7 +11,7 @@ const Press: React.FC = () => {
         </span>
       </div>
 
-      <div className="image image--contacts"> </div>
+      <div className="image image--press"> </div>
 
       <div className="max-width">
         <span className="body">
