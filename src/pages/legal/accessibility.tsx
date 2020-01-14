@@ -26,7 +26,7 @@ const Accessibility: React.FC = () => {
         <ol>
           <li>
             <p>
-              1.1 By using the website [insert name] you confirm that you have
+              1.1 By using the website worbli.io you confirm that you have
               read, understood and accepted the terms of this statement. If you
               do not agree, you are kindly requested not to access the website.
             </p>
