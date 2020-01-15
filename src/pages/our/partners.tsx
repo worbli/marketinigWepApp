@@ -94,7 +94,21 @@ const Partners: React.FC = () => {
             </em>
           </p>
 
-          <p>See description under WORBLI Advisors. </p>
+          <p>
+            The founder of 0rigin, Daryn Soards is an expert in economic
+            modeling and is relied upon regularly as a strategic consultant.
+            0rigin is a full-service principal finance business operating in
+            digital assets. Its investments, strategies, and products center
+            around its core belief in the evolution of ultra-low friction,
+            inclusive and democratic pillars that will form the foundations of a
+            new era in finance and commerce. Their team has extensive experience
+            across multiple asset classes and industries. It uses this depth and
+            breadth to optimize financial models, mitigate risk and form
+            strategic partnerships within the digital world. The 0rigin strategy
+            to broaden the capital base of the blockchain asset class forms a
+            core component of the paradigm shift in the global financial
+            architecture.
+          </p>
 
           <p>
             <em>
