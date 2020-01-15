@@ -17,8 +17,29 @@ const Partners: React.FC = () => {
         <span className="body">
           <p>
             <em>
+              <strong>Agenix</strong>
+            </em>
+          </p>
+
+          <p>
+            Provides Compliance as a Service (CaaS), Security Token Development.
+            In addition Agenix offers application development services that use
+            decentralized technology to enable freedom, transparency and
+            security for businesses and organizations.
+          </p>
+
+          <p>
+            <em>
               <strong>Chintai EOS</strong>
             </em>
+            <br />
+            <a
+              href="https://chintai.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://chintai.io/
+            </a>
           </p>
 
           <p>
@@ -79,6 +100,14 @@ const Partners: React.FC = () => {
             <em>
               <strong>dfuse</strong>
             </em>
+            <br />
+            <a
+              href="https://www.dfuse.io/en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.dfuse.io/en
+            </a>
           </p>
 
           <p>
@@ -116,6 +145,14 @@ const Partners: React.FC = () => {
             <em>
               <strong>AIKON</strong>
             </em>
+            <br />
+            <a
+              href="https://aikon.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://aikon.com/
+            </a>
           </p>
 
           <p>

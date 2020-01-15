@@ -101,6 +101,15 @@ const Launch: React.FC = () => {
             built right into the token itself.
           </p>
 
+          <h4 id="complianceatthetokenlevel">How to Set up an Application on WORBLI</h4>
+          <p>
+          If you have everything you need for your STO or Application and you don’t need any help with compliance, the instructions that follow will help you make your project live on WORBLI.
+          </p>
+            <a href="https://medium.com/worbli-ecosystem/how-to-set-up-an-application-on-worbli-8ed235da2ebe">
+              <button className="medium-button">Read more on medium</button>
+            </a>
+
+
           <h4 id="ourpartnersandsuiteofapplicationscanalsoleverageexpertlevelconsultingfor">
             Our partners and suite of applications can also leverage expert
             level consulting for...

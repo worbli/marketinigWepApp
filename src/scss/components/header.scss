@@ -22,7 +22,7 @@
     height: 55px;
     width: 80px;
     overflow: hidden;
-    background-image: url(../../images/logo-light.png);
+    background-image: url(../../images/logo-light.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -109,7 +109,7 @@
 @media (prefers-color-scheme: dark) {
   .header {
     h1 {
-      background-image: url(../../images/logo-dark.png);
+      background-image: url(../../images/logo-dark.svg);
     }
     .dropdown {
       background-color: $medium-jungle-green;
@@ -126,7 +126,7 @@
 @media (prefers-color-scheme: light) {
   .header {
     h1 {
-      background-image: url(../../images/logo-light.png);
+      background-image: url(../../images/logo-light.svg);
     }
     .dropdown {
       background-color: $white;

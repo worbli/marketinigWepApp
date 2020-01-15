@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22b8bb882235c148c11e64460b95c842",
+    "revision": "7ef0ec264cb63784419d1b3eae25ec59",
     "url": "/marketinigWepApp/index.html"
   },
   {
-    "revision": "4013cb62a9e8c4e7c44c",
-    "url": "/marketinigWepApp/static/css/main.2048b7f9.chunk.css"
+    "revision": "eef851475e68aeccc2d8",
+    "url": "/marketinigWepApp/static/css/main.cd7c7eb8.chunk.css"
   },
   {
     "revision": "3f746dbcb66387fdc0f1",
     "url": "/marketinigWepApp/static/js/2.b113e52b.chunk.js"
   },
   {
-    "revision": "4013cb62a9e8c4e7c44c",
-    "url": "/marketinigWepApp/static/js/main.1eca64da.chunk.js"
+    "revision": "eef851475e68aeccc2d8",
+    "url": "/marketinigWepApp/static/js/main.862ee2db.chunk.js"
   },
   {
     "revision": "a800cf6861802d30e608",
@@ -84,6 +84,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/media/loading.6a19979e.svg"
   },
   {
+    "revision": "f0814a5524d4716d319510287bc7a153",
+    "url": "/marketinigWepApp/static/media/logo-dark.f0814a55.svg"
+  },
+  {
+    "revision": "ee1294954e02bdb691591a0fbdd95a2e",
+    "url": "/marketinigWepApp/static/media/logo-light.ee129495.svg"
+  },
+  {
     "revision": "0c8c397530bbb8ff71f69029592b0a4e",
     "url": "/marketinigWepApp/static/media/partner.0c8c3975.jpg"
   },
@@ -104,24 +112,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketinigWepApp/static/media/right-light.f009f6f0.svg"
   },
   {
-    "revision": "8ddf88575f957554fd10fa749f4c2621",
-    "url": "/marketinigWepApp/static/media/screen-1.8ddf8857.webp"
+    "revision": "35ded3494cf547f586427e5cda5b11e3",
+    "url": "/marketinigWepApp/static/media/screen-1.35ded349.jpg"
   },
   {
-    "revision": "5bcd6d68a725776fc60f632cfd068059",
-    "url": "/marketinigWepApp/static/media/screen-2.5bcd6d68.webp"
+    "revision": "a1dc862a4a82bbab9e31a935173903a2",
+    "url": "/marketinigWepApp/static/media/screen-2.a1dc862a.jpg"
   },
   {
-    "revision": "feed59ee67b7a13a566ea95997c71bd6",
-    "url": "/marketinigWepApp/static/media/screen-3.feed59ee.webp"
+    "revision": "ed2c29a9eb8551dd06120b1a0529790a",
+    "url": "/marketinigWepApp/static/media/screen-3.ed2c29a9.jpg"
   },
   {
-    "revision": "f22832c970e0683e4a02d3ac54bd249c",
-    "url": "/marketinigWepApp/static/media/screen-4.f22832c9.webp"
+    "revision": "94b996c696b9b7cf4a3e7feadfd51a30",
+    "url": "/marketinigWepApp/static/media/screen-4.94b996c6.jpg"
   },
   {
-    "revision": "2ea3b30968bf5b93e01e849f8e69e3e4",
-    "url": "/marketinigWepApp/static/media/screen-5.2ea3b309.webp"
+    "revision": "0326868912282bb73f3da7d0908052c7",
+    "url": "/marketinigWepApp/static/media/screen-5.03268689.jpg"
   },
   {
     "revision": "323a9675aec8f8498531d3f5b5ea26ca",
