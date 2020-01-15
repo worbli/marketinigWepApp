@@ -1,21 +1,6 @@
-import React, { useContext, useState, useEffect } from "react";
-import { Context } from "../../components/context";
+import React from "react";
 
 const Updates: React.FC = () => {
-  const { global } = useContext(Context) as { global: any };
-  const [state, setState] = useState({ src: "" });
-
-  useEffect(() => {
-    const getMarkdown = async () => {
-      const response = await fetch(
-        `https://worbli.github.io/marketinigWepApp/markdown/${global.language}/updates.md`
-      );
-      const src = await response.text();
-      if (state.src === "") setState({ ...state, src });
-    };
-    getMarkdown();
-  }, [global.language, state]);
-
   return (
     <React.Fragment>
     <div className="max-width">
