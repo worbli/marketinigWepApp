@@ -30,7 +30,7 @@ phases:
       - >
         aws s3 cp  
         --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
-        ./build/service-worker.js s3://$DEPLOY_BUCKET/marketinigWepApp/
+        ./build/service-worker.js s3://$DEPLOY_BUCKET/es6-bundled/
 
       # set the cache-control headers for index.html to prevent
       # browser caching
