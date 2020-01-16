@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "143730ff677ed238adc0a66d52c09cee",
+    "revision": "5a77dda5943552cbbc6f2667d83d5db1",
     "url": "/marketingWepApp/index.html"
   },
   {
-    "revision": "36ed06ca2eb802d36b08",
-    "url": "/marketingWepApp/static/css/main.df30c226.chunk.css"
+    "revision": "9d83486e6064a7c8cddc",
+    "url": "/marketingWepApp/static/css/main.6fd10fec.chunk.css"
   },
   {
-    "revision": "50d81b63b41986c60e6a",
-    "url": "/marketingWepApp/static/js/2.4c8a59fa.chunk.js"
+    "revision": "e96f7ed17067e9c9fb78",
+    "url": "/marketingWepApp/static/js/2.fb29eae9.chunk.js"
   },
   {
-    "revision": "36ed06ca2eb802d36b08",
-    "url": "/marketingWepApp/static/js/main.cb96d17d.chunk.js"
+    "revision": "9d83486e6064a7c8cddc",
+    "url": "/marketingWepApp/static/js/main.2717959a.chunk.js"
   },
   {
     "revision": "ec8d7178aee8cedfe1e8",
@@ -90,6 +90,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee1294954e02bdb691591a0fbdd95a2e",
     "url": "/marketingWepApp/static/media/logo-light.ee129495.svg"
+  },
+  {
+    "revision": "e923650f4c18d486d3b11f45f958a865",
+    "url": "/marketingWepApp/static/media/menu-dark.e923650f.svg"
+  },
+  {
+    "revision": "d0c0effd8cef0b081cd6a77961fae718",
+    "url": "/marketingWepApp/static/media/menu-light.d0c0effd.svg"
   },
   {
     "revision": "0c8c397530bbb8ff71f69029592b0a4e",

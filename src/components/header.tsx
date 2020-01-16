@@ -65,7 +65,11 @@ const Header: React.FC = () => {
         <h1>WORBLI</h1>
       </Link>
       <div></div>
-      <div className="top-nav-mobile"></div>
+      <div className="top-nav-mobile">
+      <Link to={{ pathname: "/menu" }}>
+        <div className="top-nav-mobile-menu"></div>
+        </Link>
+      </div>
       <div className="top-nav">
         <div
           className="dropdown-button"

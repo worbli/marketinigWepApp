@@ -1,0 +1,26 @@
+.menu {
+  padding: 12px;
+  &--header {
+      font-weight: 700;
+      margin: 12px 0;
+  }
+  a {
+    display: block;
+    text-indent: 12px;
+    padding-bottom: 10px;
+    color: $bleu-de-france;
+    text-decoration: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: $medium-jungle-green;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .card {
+    background-color: $white;
+  }
+}

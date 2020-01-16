@@ -130,6 +130,8 @@ This isn't a pass/fail or a method for gatekeeping. This is a due diligence step
               </div>
             </form>
           )}
+          <br/><br/>
+          <p>Registered Address: <br/><br/>15th Floor, <br/>Valley Point, <br/>491B River Valley Road, <br/>Singapore, <br/>248373.</p>
         </span>
       </div>
     </React.Fragment>

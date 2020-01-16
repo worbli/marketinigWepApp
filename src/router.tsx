@@ -22,6 +22,7 @@ import { Terms } from "./pages/legal/terms";
 import { Privacy } from "./pages/legal/privacy";
 import { Accessibility } from "./pages/legal/accessibility";
 import { NotFound } from "./pages/notfound";
+import { Menu } from "./pages/menu";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
@@ -71,6 +72,7 @@ const Router: React.FC = () => {
                   path="/about/differences"
                   component={Differences}
                 />
+                <Route exact path="/menu" component={Menu} />
                 <Route exact path="/about/governance" component={Governance} />
                 <Route exact path="/getInvolved/launch" component={Launch} />
                 <Route exact path="/getInvolved/partner" component={Partner} />
