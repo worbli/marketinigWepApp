@@ -24,20 +24,20 @@ phases:
       - >
         aws s3 cp 
         --cache-control="max-age=0, no-cache, no-store, must-revalidate"
-        --recursive ./build s3://$DEPLOY_BUCKET/marketinigWepApp/
+        --recursive ./build s3://$DEPLOY_BUCKET/marketingWepApp/
       # set the cache-control headers for service-worker.js to prevent
       # browser caching
       - >
         aws s3 cp  
         --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
-        ./build/service-worker.js s3://$DEPLOY_BUCKET/es6-bundled/
+        ./docs/service-worker.js s3://$DEPLOY_BUCKET/es6-bundled/
 
       # set the cache-control headers for index.html to prevent
       # browser caching
       - >
         aws s3 cp  
         --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
-        ./build/index.html s3://$DEPLOY_BUCKET/marketinigWepApp/
+        ./build/index.html s3://$DEPLOY_BUCKET/marketingWepApp/
 
       # invalidate the CloudFront cache for index.html and service-worker.js
       # to force CloudFront to update its edge locations with the new versions
