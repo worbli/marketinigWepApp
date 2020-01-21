@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/marketingWepApp/static/css/main.6fd10fec.chunk.css",
-    "main.js": "/marketingWepApp/static/js/main.048928cd.chunk.js",
-    "main.js.map": "/marketingWepApp/static/js/main.048928cd.chunk.js.map",
+    "main.js": "/marketingWepApp/static/js/main.3e73e4d7.chunk.js",
+    "main.js.map": "/marketingWepApp/static/js/main.3e73e4d7.chunk.js.map",
     "runtime-main.js": "/marketingWepApp/static/js/runtime-main.6e64c803.js",
     "runtime-main.js.map": "/marketingWepApp/static/js/runtime-main.6e64c803.js.map",
     "static/js/2.b0e3ddfa.chunk.js": "/marketingWepApp/static/js/2.b0e3ddfa.chunk.js",
     "static/js/2.b0e3ddfa.chunk.js.map": "/marketingWepApp/static/js/2.b0e3ddfa.chunk.js.map",
     "index.html": "/marketingWepApp/index.html",
-    "precache-manifest.3e6b4cd34639b72e9cac92d9f3b50399.js": "/marketingWepApp/precache-manifest.3e6b4cd34639b72e9cac92d9f3b50399.js",
+    "precache-manifest.d32b0e604c74c75279491e1b141a355e.js": "/marketingWepApp/precache-manifest.d32b0e604c74c75279491e1b141a355e.js",
     "service-worker.js": "/marketingWepApp/service-worker.js",
     "static/css/main.6fd10fec.chunk.css.map": "/marketingWepApp/static/css/main.6fd10fec.chunk.css.map",
     "static/media/index.scss": "/marketingWepApp/static/media/updates.0927f5c4.jpg",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.6e64c803.js",
     "static/js/2.b0e3ddfa.chunk.js",
     "static/css/main.6fd10fec.chunk.css",
-    "static/js/main.048928cd.chunk.js"
+    "static/js/main.3e73e4d7.chunk.js"
   ]
 }

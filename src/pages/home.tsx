@@ -69,9 +69,9 @@ const Home: React.FC = () => {
           <br/><br/><br/><br/>
           <div className="three-column-grid">
             <div className="floating-card">
-              <h4 className="item-title">Worbli partners with wordproof</h4>
+              <h4 className="item-title">WORBLI articles, news and announcements</h4>
               <p>Browse WORBLI related articles and news<br/><br/></p>
-              <Link to={{ pathname: "/progress/updates" }}>
+              <Link to={{ pathname: "/our/press" }}>
                 <button className="left blue">Latest updates</button>
               </Link>
             </div>

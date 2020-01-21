@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bed6e2435d5460de7965606c060c8ca0",
+    "revision": "ac2ae93702a3ba8f7e79008a158e7243",
     "url": "/marketingWepApp/index.html"
   },
   {
-    "revision": "5d20e1249d199a3efa0c",
+    "revision": "6aaa33e8d70c00a4ad59",
     "url": "/marketingWepApp/static/css/main.6fd10fec.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marketingWepApp/static/js/2.b0e3ddfa.chunk.js"
   },
   {
-    "revision": "5d20e1249d199a3efa0c",
-    "url": "/marketingWepApp/static/js/main.048928cd.chunk.js"
+    "revision": "6aaa33e8d70c00a4ad59",
+    "url": "/marketingWepApp/static/js/main.3e73e4d7.chunk.js"
   },
   {
     "revision": "ec8d7178aee8cedfe1e8",
